@@ -1,6 +1,5 @@
 import axios from 'axios'
 import { createAsyncThunk } from '@reduxjs/toolkit'
-import {slugify} from '../../helper'
 
 const endPoint = process.env.REACT_APP_API_URL
 
@@ -12,7 +11,6 @@ export const getActivities = createAsyncThunk(
         headers: {
           // 'Content-Type': 'application/json',
           'Authorization': `Bearer ${localStorage.getItem("token")}`
-          
         },
       }
       const res = await axios.get(
