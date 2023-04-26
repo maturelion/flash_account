@@ -1,11 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Helmet from "react-helmet";
+import { useNavigate } from "react-router-dom";
+import { getUser } from "../../feature/user/UserActions";
+import { useDispatch, useSelector } from "react-redux";
 
 const Dashboard = () => {
+  const navigate = useNavigate()
+  const dispatch = useDispatch()
+  const {user} = useSelector(state => state.user)
+
+  useEffect(() => {
+    dispatch(getUser({}))
+  }, [dispatch])
+
+  useEffect(() => {
+    if(localStorage.getItem('token') === null) {
+      navigate("/")
+    }
+  }, [navigate])
   return (
     <>
       <Helmet>
-        <title>Michael C Lukas | Florish Bank Online banking</title>
+        <title>{`${user.first_name} ${user.last_name} | Florish Bank Online banking`}</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         
 
@@ -504,7 +520,7 @@ const Dashboard = () => {
                                         bis_skin_checked="1"
                                       >
                                         <span class="lead-text">
-                                          Michael Lukas C
+                                        {user.first_name} {user.last_name}
                                         </span>
                                         <span class="sub-text">4460484609</span>
                                       </div>
@@ -1104,7 +1120,7 @@ const Dashboard = () => {
                                   class="user-name dropdown-indicator"
                                   bis_skin_checked="1"
                                 >
-                                  Michael Lukas C
+                                  {user.first_name} {user.last_name}
                                 </div>
                               </div>
                             </div>
@@ -1122,7 +1138,7 @@ const Dashboard = () => {
                                   <span>CM</span>
                                 </div>
                                 <div class="user-info" bis_skin_checked="1">
-                                  <span class="lead-text">Michael Lukas C</span>
+                                  <span class="lead-text">{user.first_name} {user.last_name}</span>
                                   <span class="sub-text">4460484609</span>
                                 </div>
                               </div>
@@ -1221,7 +1237,7 @@ const Dashboard = () => {
                       >
                         <div class="nk-block-head-content" bis_skin_checked="1">
                           <h4 class="nk-block-title fw-normal">
-                            Good morning Michael Lukas C
+                            Hello, {user.first_name} {user.last_name}
                           </h4>
                           <div class="nk-block-des" bis_skin_checked="1">
                             <p>At a glance summary of your account!</p>
@@ -1294,7 +1310,7 @@ const Dashboard = () => {
                                           bis_skin_checked="1"
                                         >
                                           <span class="number-lg amount">
-                                            MI
+                                            {user.first_name && user.first_name.slice(0, 1)}{user.last_name && user.last_name.slice(0, 1)}
                                           </span>
                                         </div>
                                       </div>
@@ -1314,7 +1330,7 @@ const Dashboard = () => {
                                         >
                                           USD 177,853,397
                                         </div>
-                                        Michael Lukas C
+                                        {user.first_name} {user.last_name}
                                       </div>
                                     </div>
                                     <div

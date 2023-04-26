@@ -6,8 +6,8 @@ from activity.views import ActivityViewSet
 from users.views import UserViewSet
 
 router = DefaultRouter()
-router.register("user", UserViewSet, "user")
-router.register("activity", ActivityViewSet, "activity")
+router.register("users", UserViewSet, "user")
+router.register("activities", ActivityViewSet, "activity")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
