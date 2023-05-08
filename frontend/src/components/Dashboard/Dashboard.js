@@ -3,11 +3,30 @@ import Helmet from "react-helmet";
 import { useNavigate } from "react-router-dom";
 import { getUser } from "../../feature/user/UserActions";
 import { useDispatch, useSelector } from "react-redux";
+import { useState } from "react";
+import axios from "axios";
 
 const Dashboard = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const {user} = useSelector(state => state.user)
+  //creating IP state
+  const [ip,setIP] = useState('');
+  const [countryCode,setCountryCode] = useState('');
+    
+  //creating function to load ip address from the API
+  const getData = async()=>{
+      const res = await axios.get('https://geolocation-db.com/json/')
+      console.log(res.data);
+      setIP(res.data.IPv4)
+      setCountryCode(res.data.country_code)
+  }
+
+  
+  useEffect(()=>{
+      //passing getData method to the lifecycle method
+      getData()
+  },[])
 
   useEffect(() => {
     dispatch(getUser({}))
@@ -1368,8 +1387,8 @@ const Dashboard = () => {
                                           class="number"
                                           bis_skin_checked="1"
                                         >
-                                          <img src="../../assets/ng.png" alt="" />
-                                          105.113.19.232
+                                          <img src={`https://flagcdn.com/${countryCode.toLowerCase()}.svg`} alt="" height={20} width={20} />
+                                          {ip}
                                         </div>
                                       </div>
                                     </div>

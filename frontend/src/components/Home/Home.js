@@ -5,18 +5,27 @@ import Helmet from "react-helmet";
 import { loginUser } from "../../feature/auth/AuthActions";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Home = () => {
   const minUserChar = 3
   const dispatch = useDispatch()
   const navigate = useNavigate()
+  const [loading, setLoading] = useState(false)
   const initialValues = {
     id: "",
     pass: ""
   }
 
   const onSubmit = (values) => {
-    dispatch(loginUser(values)).unwrap().then(res => navigate("/dashboard"))
+    setLoading(true)
+    dispatch(loginUser(values)).unwrap().then(res => {
+      setLoading(false)
+      navigate("/dashboard")
+    }
+    ).catch(error => {
+      setLoading(false)
+    })
   }
 
   const validationSchema = Yup.object({
@@ -2297,7 +2306,7 @@ const Home = () => {
                             type="submit"
                             class="btn btn-default loginbtn"
                           >
-                            Sign in
+                            {loading ? "Processing..." : "Sign in"}
                           </button>
                         </div>
                       </div>
