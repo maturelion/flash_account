@@ -4,7 +4,7 @@ import { getActivities } from './ActivityActions'
 
 const initialState = {
   loading: false,
-  activity: {}, // for activity object
+  activity: [], // for activity object
   error: null,
   success: false, // for monitoring the registration process.
 }

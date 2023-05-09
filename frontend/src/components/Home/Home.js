@@ -89,16 +89,16 @@ const Home = () => {
       <div
         bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMS45LjA5Iiwic2NvcmUiOjEwOTA5fV0="
         style={{ position: "relative", minHeight: "100%", top: "0px" }}
-        class="no-outlines"
+        className="no-outlines"
       >
-        <div class="top-menu-1x" bis_skin_checked="1">
-          <div class="container" bis_skin_checked="1">
-            <div class="row" bis_skin_checked="1">
-              <div class="col-md-6" bis_skin_checked="1">
-                <div class="top-menu-left" bis_skin_checked="1">
+        <div className="top-menu-1x" bis_skin_checked="1">
+          <div className="container" bis_skin_checked="1">
+            <div className="row" bis_skin_checked="1">
+              <div className="col-md-6" bis_skin_checked="1">
+                <div className="top-menu-left" bis_skin_checked="1">
                   <p>Need help? Contact Us</p>
                   <b>
-                    <i class="fa fa-envelope"></i>
+                    <i className="fa fa-envelope"></i>
                     <a
                       style={{ color: "##fff" }}
                       href="/customercare@florishbank.com:support@florishbank.com"
@@ -108,9 +108,9 @@ const Home = () => {
                   </b>
                 </div>
               </div>
-              <div class="col-md-6" bis_skin_checked="1">
-                <div class="top-menu-right" bis_skin_checked="1">
-                  <div class="footer-info-right" bis_skin_checked="1">
+              <div className="col-md-6" bis_skin_checked="1">
+                <div className="top-menu-right" bis_skin_checked="1">
+                  <div className="footer-info-right" bis_skin_checked="1">
                     <table>
                       <tbody>
                         <tr>
@@ -124,7 +124,7 @@ const Home = () => {
                                 padding: "2px",
                               }}
                             >
-                              <i class="fa fa-lock"></i> sign in
+                              <i className="fa fa-lock"></i> sign in
                             </a>
                           </td>
                           <td> &nbsp;&nbsp;&nbsp;</td>
@@ -197,7 +197,7 @@ const Home = () => {
                                 bis_skin_checked="1"
                               >
                                 <div
-                                  class="skiptranslate goog-te-gadget"
+                                  className="skiptranslate goog-te-gadget"
                                   dir="ltr"
                                   bis_skin_checked="1"
                                 >
@@ -205,7 +205,7 @@ const Home = () => {
                                     id=":0.targetLanguage"
                                     bis_skin_checked="1"
                                   >
-                                    {/* <select class="goog-te-combo" aria-label="Language Translate Widget">
+                                    {/* <select className="goog-te-combo" aria-label="Language Translate Widget">
         <option value="">Select Language</option>
         <option value="af">Afrikaans</option>
         <option value="sq">Albanian</option>
@@ -343,7 +343,7 @@ const Home = () => {
                                   </div>
                                   {/* Powered by 
         <span style={{whiteSpace:"nowrap"}}>
-            <a class="VIpgJd-ZVi9od-l4eHX-hSRGPd" href="https://translate.google.com/" rel="noreferrer" target="_blank">
+            <a className="VIpgJd-ZVi9od-l4eHX-hSRGPd" href="https://translate.google.com/" rel="noreferrer" target="_blank">
                 <img src="../../assets/googlelogo_color_42x16dp.png" width="37px" height="14px" style={{paddingRight: "3px"}} alt="Google Translate" />Translate
             </a>
         </span> */}
@@ -362,30 +362,30 @@ const Home = () => {
         </div>
         <div
           id="sticky-wrapper"
-          class="sticky-wrapper"
+          className="sticky-wrapper"
           style={{ height: "74px" }}
           bis_skin_checked="1"
         >
           <div
-            class="bussiness-main-menu-1x"
+            className="bussiness-main-menu-1x"
             style={{ width: "1349px" }}
             bis_skin_checked="1"
           >
-            <div class="container" bis_skin_checked="1">
-              <div class="row" bis_skin_checked="1">
-                <div class="col-md-12" bis_skin_checked="1">
-                  <div class="business-main-menu" bis_skin_checked="1">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light btco-hover-menu">
-                      <a class="navbar-brand" href="/index-2">
+            <div className="container" bis_skin_checked="1">
+              <div className="row" bis_skin_checked="1">
+                <div className="col-md-12" bis_skin_checked="1">
+                  <div className="business-main-menu" bis_skin_checked="1">
+                    <nav className="navbar navbar-expand-lg navbar-light bg-light btco-hover-menu">
+                      <a className="navbar-brand" href="/index-2">
                         <img
                           style={{ maxWidth: "220px" }}
                           src="../../assets/logo.png"
-                          class="d-inline-block align-top"
+                          className="d-inline-block align-top"
                           alt=""
                         />
                       </a>
                       <button
-                        class="navbar-toggler"
+                        className="navbar-toggler"
                         type="button"
                         data-toggle="collapse"
                         data-target="#navbarSupportedContent"
@@ -393,25 +393,25 @@ const Home = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                       >
-                        <span class="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
                       </button>
 
                       <div
-                        class="collapse navbar-collapse"
+                        className="collapse navbar-collapse"
                         id="navbarSupportedContent"
                         bis_skin_checked="1"
                       >
-                        <ul class="navbar-nav ml-auto business-nav">
-                          <li class="nav-item dropdown">
+                        <ul className="navbar-nav ml-auto business-nav">
+                          <li className="nav-item dropdown">
                             <a
-                              class="nav-link"
+                              className="nav-link"
                               href="/"
                               id="navbarDropdownMenuLink2"
                               data-toggle="dropdown"
                               aria-haspopup="true"
                               aria-expanded="false"
                             >
-                              Banking Services <i class="fa fa-angle-down"></i>
+                              Banking Services <i className="fa fa-angle-down"></i>
                               <span
                                 style={{ display: "block", fontSize: "11px" }}
                               >
@@ -419,49 +419,49 @@ const Home = () => {
                               </span>
                             </a>
                             <ul
-                              class="dropdown-menu"
+                              className="dropdown-menu"
                               aria-labelledby="navbarDropdownMenuLink2"
                               style={{
                                 width: "100%",
                                 backgroundColor: "##fff",
                               }}
                             >
-                              <div class="container" bis_skin_checked="1">
+                              <div className="container" bis_skin_checked="1">
                                 <div
-                                  class="business-services nav1"
+                                  className="business-services nav1"
                                   bis_skin_checked="1"
                                 >
-                                  <div class="row" bis_skin_checked="1">
+                                  <div className="row" bis_skin_checked="1">
                                     <div
-                                      class="col-md-12 service-content"
+                                      className="col-md-12 service-content"
                                       bis_skin_checked="1"
                                     >
-                                      <div class="row" bis_skin_checked="1">
+                                      <div className="row" bis_skin_checked="1">
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/current-accounts"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Current Accounts
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/premier-accounts"
                                                   >
                                                     Florish Bank Account
@@ -469,7 +469,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/advance-accounts"
                                                   >
                                                     Advance Account
@@ -477,7 +477,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/student-accounts"
                                                   >
                                                     Student Account
@@ -485,7 +485,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/bank-accounts"
                                                   >
                                                     Bank Account
@@ -496,30 +496,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/saving-accounts"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Savings
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/isas-accounts"
                                                   >
                                                     ISAs
@@ -527,7 +527,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/online-bonus-saver"
                                                   >
                                                     Online Bonus Saver
@@ -535,7 +535,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/flexible-saver"
                                                   >
                                                     Flexible Saver
@@ -546,30 +546,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/credit-cards"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Credit cards
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/32-month-balance-transfer"
                                                   >
                                                     32 Month Transfer Credit
@@ -578,7 +578,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/advance"
                                                   >
                                                     Advance Credit Card
@@ -586,7 +586,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/dual"
                                                   >
                                                     Dual Credit Card
@@ -594,7 +594,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/classic"
                                                   >
                                                     Classic Credit Card
@@ -602,7 +602,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/premier"
                                                   >
                                                     Florish Bank Credit Card
@@ -610,7 +610,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/premier-world-elite"
                                                   >
                                                     Florish Bank World Elite
@@ -619,7 +619,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/student"
                                                   >
                                                     Student Credit Card
@@ -630,30 +630,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/contactandsupport"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Services
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/ways-to-bank"
                                                   >
                                                     Ways to bank
@@ -661,7 +661,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/phone-banking"
                                                   >
                                                     Voice ID
@@ -669,7 +669,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/contactandsupport"
                                                   >
                                                     Contact &amp; Support
@@ -677,7 +677,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/branch-locator"
                                                   >
                                                     Find a Branch
@@ -686,13 +686,13 @@ const Home = () => {
                                                 <a
                                                   style={{ marginTop: "15px" }}
                                                   href="/international"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   International services
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/currency-account"
                                                   >
                                                     Currency Account
@@ -700,7 +700,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/money-transfer"
                                                   >
                                                     International Payments
@@ -708,7 +708,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/travel-money"
                                                   >
                                                     Travel money
@@ -725,16 +725,16 @@ const Home = () => {
                               </div>
                             </ul>
                           </li>
-                          <li class="nav-item dropdown">
+                          <li className="nav-item dropdown">
                             <a
-                              class="nav-link"
+                              className="nav-link"
                               href="/index"
                               id="navbarDropdownMenuLink3"
                               data-toggle="dropdown"
                               aria-haspopup="true"
                               aria-expanded="false"
                             >
-                              Borrowing <i class="fa fa-angle-down"></i>
+                              Borrowing <i className="fa fa-angle-down"></i>
                               <span
                                 style={{ display: "block", fontSize: "11px" }}
                               >
@@ -742,49 +742,49 @@ const Home = () => {
                               </span>
                             </a>
                             <ul
-                              class="dropdown-menu"
+                              className="dropdown-menu"
                               aria-labelledby="navbarDropdownMenuLink2"
                               style={{
                                 width: "100%",
                                 backgroundColor: "##fff",
                               }}
                             >
-                              <div class="container" bis_skin_checked="1">
+                              <div className="container" bis_skin_checked="1">
                                 <div
-                                  class="business-services nav2"
+                                  className="business-services nav2"
                                   bis_skin_checked="1"
                                 >
-                                  <div class="row" bis_skin_checked="1">
+                                  <div className="row" bis_skin_checked="1">
                                     <div
-                                      class="col-md-12 service-content"
+                                      className="col-md-12 service-content"
                                       bis_skin_checked="1"
                                     >
-                                      <div class="row" bis_skin_checked="1">
+                                      <div className="row" bis_skin_checked="1">
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/loans"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Loans
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/personal-loans"
                                                   >
                                                     Personal Loan
@@ -792,7 +792,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/car-loans"
                                                   >
                                                     Car Loan
@@ -800,7 +800,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/flexible"
                                                   >
                                                     Flexiloan
@@ -808,7 +808,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/premier-personal"
                                                   >
                                                     Florish Bank Personal Loan
@@ -816,7 +816,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/graduate-loans"
                                                   >
                                                     Graduate Loan
@@ -826,20 +826,20 @@ const Home = () => {
                                             </div>
                                           </div>
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/overdrafts"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Overdrafts
                                                 </a>
@@ -848,30 +848,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/mortgages"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Mortgages
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/first-time-buyers"
                                                   >
                                                     First time buyer
@@ -879,7 +879,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/95-mortgages"
                                                   >
                                                     95% Mortgages
@@ -887,7 +887,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/remortgage"
                                                   >
                                                     Remortgage
@@ -895,7 +895,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/buy-to-let-mortgages"
                                                   >
                                                     Buy to let
@@ -903,7 +903,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/existing-customers"
                                                   >
                                                     Existing homeowner
@@ -911,7 +911,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/mortgage-rates"
                                                   >
                                                     Mortgage rates
@@ -919,7 +919,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/armed-forces"
                                                   >
                                                     Armed Forces Personnel
@@ -930,30 +930,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/credit-cards"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Credit cards
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/32-month-balance-transfer"
                                                   >
                                                     32 Month Transfer Credit
@@ -962,7 +962,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/advance"
                                                   >
                                                     Advance Credit Card
@@ -970,7 +970,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/dual"
                                                   >
                                                     Dual Credit Card
@@ -978,7 +978,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/classic"
                                                   >
                                                     Classic Credit Card
@@ -986,7 +986,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/premier"
                                                   >
                                                     Florish Bank Credit Card
@@ -994,7 +994,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/premier-world-elite"
                                                   >
                                                     Florish Bank World Elite
@@ -1003,7 +1003,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/student"
                                                   >
                                                     Student Credit Card
@@ -1014,30 +1014,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/contactandsupport"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Services
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/contactandsupport"
                                                   >
                                                     Help &amp; Support
@@ -1045,7 +1045,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/money-worries"
                                                   >
                                                     Money Worries
@@ -1053,7 +1053,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/branch-locator"
                                                   >
                                                     Find a Branch
@@ -1063,13 +1063,13 @@ const Home = () => {
                                                 <a
                                                   style={{ marginTop: "15px" }}
                                                   href="/tools-and-guides"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Tools &amp; Guides
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/overpayment-calculator"
                                                   >
                                                     Overpayment calculator
@@ -1077,7 +1077,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/repayment-calculator"
                                                   >
                                                     Repayment calculator
@@ -1085,7 +1085,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/bank-of-england-base-rate"
                                                   >
                                                     Base rate information
@@ -1103,16 +1103,16 @@ const Home = () => {
                             </ul>
                           </li>
 
-                          <li class="nav-item dropdown">
+                          <li className="nav-item dropdown">
                             <a
-                              class="nav-link"
+                              className="nav-link"
                               href="/index"
                               id="navbarDropdownMenuLink3"
                               data-toggle="dropdown"
                               aria-haspopup="true"
                               aria-expanded="false"
                             >
-                              Investing <i class="fa fa-angle-down"></i>
+                              Investing <i className="fa fa-angle-down"></i>
                               <span
                                 style={{ display: "block", fontSize: "11px" }}
                               >
@@ -1120,49 +1120,49 @@ const Home = () => {
                               </span>
                             </a>
                             <ul
-                              class="dropdown-menu"
+                              className="dropdown-menu"
                               aria-labelledby="navbarDropdownMenuLink2"
                               style={{
                                 width: "100%",
                                 backgroundColor: "##fff",
                               }}
                             >
-                              <div class="container" bis_skin_checked="1">
+                              <div className="container" bis_skin_checked="1">
                                 <div
-                                  class="business-services nav3"
+                                  className="business-services nav3"
                                   bis_skin_checked="1"
                                 >
-                                  <div class="row" bis_skin_checked="1">
+                                  <div className="row" bis_skin_checked="1">
                                     <div
-                                      class="col-md-12 service-content"
+                                      className="col-md-12 service-content"
                                       bis_skin_checked="1"
                                     >
-                                      <div class="row" bis_skin_checked="1">
+                                      <div className="row" bis_skin_checked="1">
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/investing"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Investments
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/investment-funds"
                                                   >
                                                     Investment funds
@@ -1170,7 +1170,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/world-selection-isa"
                                                   >
                                                     World Selection ISA
@@ -1178,7 +1178,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/sharedealing"
                                                   >
                                                     Sharedealing
@@ -1186,7 +1186,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/premier-financial-advice"
                                                   >
                                                     Florish Bank Financial
@@ -1195,7 +1195,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/stand-alone-investment-advice"
                                                   >
                                                     Stand-alone Investment
@@ -1204,7 +1204,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/onshore-investment-bond"
                                                   >
                                                     Onshore Investment Bond
@@ -1212,7 +1212,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/child-trust-funds"
                                                   >
                                                     Child Trust fund
@@ -1220,7 +1220,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/investing"
                                                   >
                                                     View all
@@ -1232,24 +1232,24 @@ const Home = () => {
                                         </div>
 
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/news"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Financial news &amp; analysis
                                                 </a>
@@ -1257,26 +1257,26 @@ const Home = () => {
                                             </div>
                                           </div>
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/why-invest-with-us"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Why invest with us?
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/why-invest-with-us"
                                                   >
                                                     Find out more
@@ -1286,20 +1286,20 @@ const Home = () => {
                                             </div>
                                           </div>
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/wealth-insights"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Wealth Insights{" "}
                                                 </a>
@@ -1308,30 +1308,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/investment-funds-online"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Global Investment Centre
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/investment-funds-online"
                                                   >
                                                     Find out more
@@ -1342,30 +1342,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/contactandsupport"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Customer support
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/gsa"
                                                   >
                                                     Log on to Global Investment
@@ -1375,7 +1375,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/gsa"
                                                   >
                                                     Log on to Sharedealing
@@ -1383,7 +1383,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/contactandsupport"
                                                   >
                                                     Investments contacts
@@ -1391,7 +1391,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/selected-investment-funds"
                                                   >
                                                     Existing Selected
@@ -1402,7 +1402,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/getting-started"
                                                   >
                                                     Getting started with
@@ -1411,7 +1411,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/contactandsupport"
                                                   >
                                                     View all
@@ -1429,16 +1429,16 @@ const Home = () => {
                             </ul>
                           </li>
 
-                          <li class="nav-item dropdown">
+                          <li className="nav-item dropdown">
                             <a
-                              class="nav-link"
+                              className="nav-link"
                               href="/index"
                               id="navbarDropdownMenuLink3"
                               data-toggle="dropdown"
                               aria-haspopup="true"
                               aria-expanded="false"
                             >
-                              Insurance <i class="fa fa-angle-down"></i>
+                              Insurance <i className="fa fa-angle-down"></i>
                               <span
                                 style={{ display: "block", fontSize: "11px" }}
                               >
@@ -1446,49 +1446,49 @@ const Home = () => {
                               </span>
                             </a>
                             <ul
-                              class="dropdown-menu"
+                              className="dropdown-menu"
                               aria-labelledby="navbarDropdownMenuLink2"
                               style={{
                                 width: "100%",
                                 backgroundColor: "##fff",
                               }}
                             >
-                              <div class="container" bis_skin_checked="1">
+                              <div className="container" bis_skin_checked="1">
                                 <div
-                                  class="business-services nav4"
+                                  className="business-services nav4"
                                   bis_skin_checked="1"
                                 >
-                                  <div class="row" bis_skin_checked="1">
+                                  <div className="row" bis_skin_checked="1">
                                     <div
-                                      class="col-md-12 service-content"
+                                      className="col-md-12 service-content"
                                       bis_skin_checked="1"
                                     >
-                                      <div class="row" bis_skin_checked="1">
+                                      <div className="row" bis_skin_checked="1">
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/insurance"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Insurance
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/home-insurance"
                                                   >
                                                     Home Insurance
@@ -1496,7 +1496,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/travel-insurance"
                                                   >
                                                     Travel Insurance
@@ -1504,7 +1504,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/student-insurance"
                                                   >
                                                     Student Insurance
@@ -1512,7 +1512,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/insurance"
                                                   >
                                                     View all
@@ -1524,30 +1524,30 @@ const Home = () => {
                                         </div>
 
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/life-insurance"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Life Insurance
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/life-cover"
                                                   >
                                                     Life Cover
@@ -1555,7 +1555,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/critical-illness-cover"
                                                   >
                                                     Critical Illness Cover
@@ -1563,7 +1563,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/income-cover"
                                                   >
                                                     Income Cover
@@ -1571,7 +1571,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/protection-telephone-advice"
                                                   >
                                                     Telephone Protection Advice
@@ -1579,7 +1579,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/life-insurance"
                                                   >
                                                     View all
@@ -1590,30 +1590,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/insurance"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Insurance Claims
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/home-insurance-claims"
                                                   >
                                                     Home Insurance Claims
@@ -1621,7 +1621,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/travel-insurance"
                                                   >
                                                     Travel Insurance Claims
@@ -1629,7 +1629,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/car-insurance-claims"
                                                   >
                                                     Car Insurance Claims
@@ -1640,30 +1640,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/premier-accounts"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Florish Bank Customers
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/premier-travel"
                                                   >
                                                     Travel Insurance Claims
@@ -1671,7 +1671,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/premier-car"
                                                   >
                                                     Car Insurance Claims
@@ -1689,16 +1689,16 @@ const Home = () => {
                             </ul>
                           </li>
 
-                          <li class="nav-item dropdown">
+                          <li className="nav-item dropdown">
                             <a
-                              class="nav-link"
+                              className="nav-link"
                               href="/index"
                               id="navbarDropdownMenuLink3"
                               data-toggle="dropdown"
                               aria-haspopup="true"
                               aria-expanded="false"
                             >
-                              Life events <i class="fa fa-angle-down"></i>
+                              Life events <i className="fa fa-angle-down"></i>
                               <span
                                 style={{ display: "block", fontSize: "11px" }}
                               >
@@ -1706,49 +1706,49 @@ const Home = () => {
                               </span>
                             </a>
                             <ul
-                              class="dropdown-menu"
+                              className="dropdown-menu"
                               aria-labelledby="navbarDropdownMenuLink2"
                               style={{
                                 width: "100%",
                                 backgroundColor: "##fff",
                               }}
                             >
-                              <div class="container" bis_skin_checked="1">
+                              <div className="container" bis_skin_checked="1">
                                 <div
-                                  class="business-services nav5"
+                                  className="business-services nav5"
                                   bis_skin_checked="1"
                                 >
-                                  <div class="row" bis_skin_checked="1">
+                                  <div className="row" bis_skin_checked="1">
                                     <div
-                                      class="col-md-12 service-content"
+                                      className="col-md-12 service-content"
                                       bis_skin_checked="1"
                                     >
-                                      <div class="row" bis_skin_checked="1">
+                                      <div className="row" bis_skin_checked="1">
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/life-events"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Life events
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/dealing-with-bereavement"
                                                   >
                                                     Bereavement support
@@ -1756,7 +1756,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/dealing-with-separation"
                                                   >
                                                     Separation support
@@ -1764,7 +1764,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/settling-in-the-uk"
                                                   >
                                                     Settling in the UK
@@ -1772,7 +1772,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/getting-married"
                                                   >
                                                     Getting married
@@ -1780,7 +1780,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/planning-your-retirement"
                                                   >
                                                     Planning your retirement
@@ -1788,7 +1788,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/growing-your-wealth"
                                                   >
                                                     Growing your wealth
@@ -1796,7 +1796,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/moving-abroad"
                                                   >
                                                     Moving abroad
@@ -1804,7 +1804,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/life-events"
                                                   >
                                                     View all
@@ -1816,30 +1816,30 @@ const Home = () => {
                                         </div>
 
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/planningtools"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Planning tools
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/financial-health-check"
                                                   >
                                                     Financial health check
@@ -1847,7 +1847,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/planningtools"
                                                   >
                                                     View All
@@ -1858,30 +1858,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/protecting-what-matters"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Protecting what matters
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/protecting-what-matters"
                                                   >
                                                     Learn more
@@ -1892,30 +1892,30 @@ const Home = () => {
                                           </div>
                                         </div>
                                         <div
-                                          class="col-md-3"
+                                          className="col-md-3"
                                           bis_skin_checked="1"
                                         >
                                           <div
-                                            class="single-services"
+                                            className="single-services"
                                             bis_skin_checked="1"
                                           >
                                             <div
-                                              class="media"
+                                              className="media"
                                               bis_skin_checked="1"
                                             >
                                               <div
-                                                class="media-body"
+                                                className="media-body"
                                                 bis_skin_checked="1"
                                               >
                                                 <a
                                                   href="/contactandsupport"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Customer support
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/ways-we-can-help"
                                                   >
                                                     Ways we can help
@@ -1923,7 +1923,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/money-worries"
                                                   >
                                                     Money Worries
@@ -1931,7 +1931,7 @@ const Home = () => {
                                                 </li>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/ways-we-can-help"
                                                   >
                                                     Frequently asked questions
@@ -1940,13 +1940,13 @@ const Home = () => {
                                                 <a
                                                   style={{ marginTop: "15px" }}
                                                   href="/quality-conversations"
-                                                  class="menuhead"
+                                                  className="menuhead"
                                                 >
                                                   Individual Review
                                                 </a>
                                                 <li>
                                                   <a
-                                                    class="dropdown-item"
+                                                    className="dropdown-item"
                                                     href="/quality-conversations"
                                                   >
                                                     Book your review today for a
@@ -1992,24 +1992,24 @@ const Home = () => {
         margin: .188em 0;
     }
     </style> */}
-        <div class="business-main-slider1" bis_skin_checked="1">
-          <div class="owl-carousel1 main-slider1" bis_skin_checked="1">
-            <div class="item1" bis_skin_checked="1">
-              <div class="hvrbox" bis_skin_checked="1">
+        <div className="business-main-slider1" bis_skin_checked="1">
+          <div className="owl-carousel1 main-slider1" bis_skin_checked="1">
+            <div className="item1" bis_skin_checked="1">
+              <div className="hvrbox" bis_skin_checked="1">
                 <img
                   src="../../assets/b1.jpg"
                   alt="Mountains"
-                  class="hvrbox-layer_bottom"
+                  className="hvrbox-layer_bottom"
                 />
-                <div class="business-main-slider" bis_skin_checked="1">
-                  <div class="banner-content" bis_skin_checked="1">
+                <div className="business-main-slider" bis_skin_checked="1">
+                  <div className="banner-content" bis_skin_checked="1">
                     <div
-                      class="owl-carousel main-slider owl-loaded owl-drag"
+                      className="owl-carousel main-slider owl-loaded owl-drag"
                       bis_skin_checked="1"
                     >
-                      <div class="owl-stage-outer" bis_skin_checked="1">
+                      <div className="owl-stage-outer" bis_skin_checked="1">
                         <div
-                          class="owl-stage"
+                          className="owl-stage"
                           style={{
                             transform: "translate3d(-1116px, 0px, 0px)",
                             transition: "all 0s ease 0s",
@@ -2018,16 +2018,16 @@ const Home = () => {
                           bis_skin_checked="1"
                         >
                           <div
-                            class="owl-item cloned"
+                            className="owl-item cloned"
                             style={{ width: "558px" }}
                             bis_skin_checked="1"
                           >
-                            <div class="item" bis_skin_checked="1">
+                            <div className="item" bis_skin_checked="1">
                               <div
-                                class="innerBannerContent row"
+                                className="innerBannerContent row"
                                 bis_skin_checked="1"
                               >
-                                <div class="col-sm-7" bis_skin_checked="1">
+                                <div className="col-sm-7" bis_skin_checked="1">
                                   <h2>Investment Banking </h2>
                                   <p>
                                     Investment Banking provides comprehensive
@@ -2038,23 +2038,23 @@ const Home = () => {
                                   <a href="/#">Find out more</a>
                                   <p></p>
                                 </div>
-                                <div class="col-sm-5" bis_skin_checked="1">
+                                <div className="col-sm-5" bis_skin_checked="1">
                                   <img src="../../assets/visa.png" alt="" />
                                 </div>
                               </div>
                             </div>
                           </div>
                           <div
-                            class="owl-item cloned"
+                            className="owl-item cloned"
                             style={{ width: "558px" }}
                             bis_skin_checked="1"
                           >
-                            <div class="item" bis_skin_checked="1">
+                            <div className="item" bis_skin_checked="1">
                               <div
-                                class="innerBannerContent row"
+                                className="innerBannerContent row"
                                 bis_skin_checked="1"
                               >
-                                <div class="col-sm-7" bis_skin_checked="1">
+                                <div className="col-sm-7" bis_skin_checked="1">
                                   <h2>Global Finance</h2>
                                   <p>
                                     Our M&amp;A team works in partnership with
@@ -2065,23 +2065,23 @@ const Home = () => {
                                   <a href="/##">Find out more</a>
                                   <p></p>
                                 </div>
-                                <div class="col-sm-5" bis_skin_checked="1">
+                                <div className="col-sm-5" bis_skin_checked="1">
                                   <img src="../../assets/visa2.png" alt="" />
                                 </div>
                               </div>
                             </div>
                           </div>
                           <div
-                            class="owl-item active"
+                            className="owl-item active"
                             style={{ width: "558px" }}
                             bis_skin_checked="1"
                           >
-                            <div class="item" bis_skin_checked="1">
+                            <div className="item" bis_skin_checked="1">
                               <div
-                                class="innerBannerContent row"
+                                className="innerBannerContent row"
                                 bis_skin_checked="1"
                               >
-                                <div class="col-sm-7" bis_skin_checked="1">
+                                <div className="col-sm-7" bis_skin_checked="1">
                                   <h2>Discover our new 82% mortgages</h2>
                                   <p>
                                     This Credit Union is federally insured by
@@ -2090,7 +2090,7 @@ const Home = () => {
                                   <a href="/#">Find out more</a>
                                   <p></p>
                                 </div>
-                                <div class="col-sm-5" bis_skin_checked="1">
+                                <div className="col-sm-5" bis_skin_checked="1">
                                   <img
                                     src="../../assets/visa1 (2).png"
                                     alt=""
@@ -2100,16 +2100,16 @@ const Home = () => {
                             </div>
                           </div>
                           <div
-                            class="owl-item"
+                            className="owl-item"
                             style={{ width: "558px" }}
                             bis_skin_checked="1"
                           >
-                            <div class="item" bis_skin_checked="1">
+                            <div className="item" bis_skin_checked="1">
                               <div
-                                class="innerBannerContent row"
+                                className="innerBannerContent row"
                                 bis_skin_checked="1"
                               >
-                                <div class="col-sm-7" bis_skin_checked="1">
+                                <div className="col-sm-7" bis_skin_checked="1">
                                   <h2>Investment Banking </h2>
                                   <p>
                                     Investment Banking provides comprehensive
@@ -2120,23 +2120,23 @@ const Home = () => {
                                   <a href="/#">Find out more</a>
                                   <p></p>
                                 </div>
-                                <div class="col-sm-5" bis_skin_checked="1">
+                                <div className="col-sm-5" bis_skin_checked="1">
                                   <img src="../../assets/visa.png" alt="" />
                                 </div>
                               </div>
                             </div>
                           </div>
                           <div
-                            class="owl-item"
+                            className="owl-item"
                             style={{ width: "558px" }}
                             bis_skin_checked="1"
                           >
-                            <div class="item" bis_skin_checked="1">
+                            <div className="item" bis_skin_checked="1">
                               <div
-                                class="innerBannerContent row"
+                                className="innerBannerContent row"
                                 bis_skin_checked="1"
                               >
-                                <div class="col-sm-7" bis_skin_checked="1">
+                                <div className="col-sm-7" bis_skin_checked="1">
                                   <h2>Global Finance</h2>
                                   <p>
                                     Our M&amp;A team works in partnership with
@@ -2147,23 +2147,23 @@ const Home = () => {
                                   <a href="/##">Find out more</a>
                                   <p></p>
                                 </div>
-                                <div class="col-sm-5" bis_skin_checked="1">
+                                <div className="col-sm-5" bis_skin_checked="1">
                                   <img src="../../assets/visa2.png" alt="" />
                                 </div>
                               </div>
                             </div>
                           </div>
                           <div
-                            class="owl-item cloned"
+                            className="owl-item cloned"
                             style={{ width: "558px" }}
                             bis_skin_checked="1"
                           >
-                            <div class="item" bis_skin_checked="1">
+                            <div className="item" bis_skin_checked="1">
                               <div
-                                class="innerBannerContent row"
+                                className="innerBannerContent row"
                                 bis_skin_checked="1"
                               >
-                                <div class="col-sm-7" bis_skin_checked="1">
+                                <div className="col-sm-7" bis_skin_checked="1">
                                   <h2>Discover our new 82% mortgages</h2>
                                   <p>
                                     This Credit Union is federally insured by
@@ -2172,7 +2172,7 @@ const Home = () => {
                                   <a href="/#">Find out more</a>
                                   <p></p>
                                 </div>
-                                <div class="col-sm-5" bis_skin_checked="1">
+                                <div className="col-sm-5" bis_skin_checked="1">
                                   <img
                                     src="../../assets/visa1 (2).png"
                                     alt=""
@@ -2182,16 +2182,16 @@ const Home = () => {
                             </div>
                           </div>
                           <div
-                            class="owl-item cloned"
+                            className="owl-item cloned"
                             style={{ width: "558px" }}
                             bis_skin_checked="1"
                           >
-                            <div class="item" bis_skin_checked="1">
+                            <div className="item" bis_skin_checked="1">
                               <div
-                                class="innerBannerContent row"
+                                className="innerBannerContent row"
                                 bis_skin_checked="1"
                               >
-                                <div class="col-sm-7" bis_skin_checked="1">
+                                <div className="col-sm-7" bis_skin_checked="1">
                                   <h2>Investment Banking </h2>
                                   <p>
                                     Investment Banking provides comprehensive
@@ -2202,7 +2202,7 @@ const Home = () => {
                                   <a href="/#">Find out more</a>
                                   <p></p>
                                 </div>
-                                <div class="col-sm-5" bis_skin_checked="1">
+                                <div className="col-sm-5" bis_skin_checked="1">
                                   <img src="../../assets/visa.png" alt="" />
                                 </div>
                               </div>
@@ -2210,49 +2210,49 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                      <div class="owl-nav disabled" bis_skin_checked="1">
-                        <div class="owl-prev" bis_skin_checked="1">
+                      <div className="owl-nav disabled" bis_skin_checked="1">
+                        <div className="owl-prev" bis_skin_checked="1">
                           prev
                         </div>
-                        <div class="owl-next" bis_skin_checked="1">
+                        <div className="owl-next" bis_skin_checked="1">
                           next
                         </div>
                       </div>
-                      <div class="owl-dots" bis_skin_checked="1">
-                        <div class="owl-dot active" bis_skin_checked="1">
+                      <div className="owl-dots" bis_skin_checked="1">
+                        <div className="owl-dot active" bis_skin_checked="1">
                           <span></span>
                         </div>
-                        <div class="owl-dot" bis_skin_checked="1">
+                        <div className="owl-dot" bis_skin_checked="1">
                           <span></span>
                         </div>
-                        <div class="owl-dot" bis_skin_checked="1">
+                        <div className="owl-dot" bis_skin_checked="1">
                           <span></span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="loginbox" bis_skin_checked="1">
-                  <div class="innerlogin" id="login-form" bis_skin_checked="1">
+                <div className="loginbox" bis_skin_checked="1">
+                  <div className="innerlogin" id="login-form" bis_skin_checked="1">
                     <script src="../../assets/jquery.min.js.download"></script>
                     <form
-                      class="form-horizontal"
+                      className="form-horizontal"
                       id="pcLogForm"
                       enctype="multipart/form-data"
                       method="post"
                       onSubmit={formik.handleSubmit}
                     >
                       <h3>INTERNET BANKING</h3>
-                      <div class="logResult" bis_skin_checked="1"></div>
+                      <div className="logResult" bis_skin_checked="1"></div>
                       &nbsp;
-                      <div class="form-group" bis_skin_checked="1">
-                        <div class="col-sm-10" bis_skin_checked="1">
+                      <div className="form-group" bis_skin_checked="1">
+                        <div className="col-sm-10" bis_skin_checked="1">
                           <span
                             id="sprytextfield1"
                             style={{ textAlign: "left" }}
                           >
                             <input
-                              class="form-control"
+                              className="form-control"
                               name="id"
                               type="text"
                               id="id"
@@ -2265,14 +2265,14 @@ const Home = () => {
                           </span>
                         </div>
                       </div>
-                      <div class="form-group" bis_skin_checked="1">
-                        <div class="col-sm-10" bis_skin_checked="1">
+                      <div className="form-group" bis_skin_checked="1">
+                        <div className="col-sm-10" bis_skin_checked="1">
                           <span
                             id="sprypassword1"
                             style={{ textAlign: "left" }}
                           >
                             <input
-                              class="form-control"
+                              className="form-control"
                               name="pass"
                               type="password"
                               id="pass"
@@ -2285,59 +2285,59 @@ const Home = () => {
                           </span>
                         </div>
                       </div>
-                      <div class="form-group" bis_skin_checked="1">
+                      <div className="form-group" bis_skin_checked="1">
                         <div
-                          class="col-sm-offset-2 col-sm-10"
+                          className="col-sm-offset-2 col-sm-10"
                           bis_skin_checked="1"
                         >
-                          <div class="checkbox" bis_skin_checked="1">
+                          <div className="checkbox" bis_skin_checked="1">
                             <label>
                               <input type="checkbox" /> Remember me
                             </label>
                           </div>
                         </div>
                       </div>
-                      <div class="form-group" bis_skin_checked="1">
+                      <div className="form-group" bis_skin_checked="1">
                         <div
-                          class="col-sm-offset-2 col-sm-10"
+                          className="col-sm-offset-2 col-sm-10"
                           bis_skin_checked="1"
                         >
                           <button
                             type="submit"
-                            class="btn btn-default loginbtn"
+                            className="btn btn-default loginbtn"
                           >
                             {loading ? "Processing..." : "Sign in"}
                           </button>
                         </div>
                       </div>
                       <div
-                        class="form-group"
+                        className="form-group"
                         style={{ marginBottom: "0", lineHeight: "28px" }}
                         bis_skin_checked="1"
                       >
                         <center>
                           {" "}
                           <div
-                            class="col-sm-offset-2 col-sm-10"
+                            className="col-sm-offset-2 col-sm-10"
                             bis_skin_checked="1"
                           >
                             <a href="/secure/register">
                               Not enrolled? Sign up now.
                               <i
-                                class="fa fa-angle-right"
+                                className="fa fa-angle-right"
                                 style={{ marginLeft: "5px" }}
                                 aria-hidden="true"
                               ></i>
                             </a>
                           </div>
                           <div
-                            class="col-sm-offset-2 col-sm-10"
+                            className="col-sm-offset-2 col-sm-10"
                             bis_skin_checked="1"
                           >
                             <a href="/secure/customer_reset">
                               Forget Password.
                               <i
-                                class="fa fa-angle-right"
+                                className="fa fa-angle-right"
                                 style={{ marginLeft: "5px" }}
                                 aria-hidden="true"
                               ></i>
@@ -2352,7 +2352,7 @@ const Home = () => {
                 $(document).ready(function() {
                 $('.loginbtn').on('click', function() {
             var $this = $(this);
-             var loadingText = '<i class="spinner-border spinner-border-sm text-light" role="status" aria-hidden="true"></i>&nbsp;Processing...';
+             var loadingText = '<i className="spinner-border spinner-border-sm text-light" role="status" aria-hidden="true"></i>&nbsp;Processing...';
              
               
             if ($(this).html() !== loadingText) {
@@ -2390,29 +2390,29 @@ const Home = () => {
           </div>
         </div>
         <div
-          class="business-features-3x"
+          className="business-features-3x"
           style={{ marginTop: "60px" }}
           bis_skin_checked="1"
         >
-          <div class="colourful-features-content" bis_skin_checked="1">
-            <div class="row" bis_skin_checked="1">
-              <div class="container" bis_skin_checked="1">
-                <div class="col-sm-12 bankservice" bis_skin_checked="1">
+          <div className="colourful-features-content" bis_skin_checked="1">
+            <div className="row" bis_skin_checked="1">
+              <div className="container" bis_skin_checked="1">
+                <div className="col-sm-12 bankservice" bis_skin_checked="1">
                   <div
-                    class="business-title-middle"
+                    className="business-title-middle"
                     style={{ marginBottom: "15px" }}
                     bis_skin_checked="1"
                   >
                     <h2>Choose what's right for you</h2>
-                    <span class="title-border-middle"></span>
+                    <span className="title-border-middle"></span>
                   </div>
                   <div
-                    class="bx-wrapper"
+                    className="bx-wrapper"
                     style={{ maxWidth: "100%" }}
                     bis_skin_checked="1"
                   >
                     <div
-                      class="bx-viewport"
+                      className="bx-viewport"
                       style={{
                         width: "100%",
                         overflow: "hidden",
@@ -2422,7 +2422,7 @@ const Home = () => {
                       bis_skin_checked="1"
                     >
                       <ul
-                        class="bxsliderwr"
+                        className="bxsliderwr"
                         style={{
                           width: "1115%",
                           position: "relative",
@@ -2438,11 +2438,11 @@ const Home = () => {
                             width: "1080px",
                             marginRight: "50px",
                           }}
-                          class="bx-clone"
+                          className="bx-clone"
                         >
                           <a href="/advance">
                             <i
-                              class="icon-credit-medium"
+                              className="icon-credit-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Find a credit card</span>
@@ -2456,11 +2456,11 @@ const Home = () => {
                             width: "1080px",
                             marginRight: "50px",
                           }}
-                          class="bx-clone"
+                          className="bx-clone"
                         >
                           <a href="/home-insurance">
                             <i
-                              class="icon-mortgage2-medium"
+                              className="icon-mortgage2-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Home Lending</span>
@@ -2474,11 +2474,11 @@ const Home = () => {
                             width: "1080px",
                             marginRight: "50px",
                           }}
-                          class="bx-clone"
+                          className="bx-clone"
                         >
                           <a href="/income-cover">
                             <i
-                              class="icon-Auto-loan-medium"
+                              className="icon-Auto-loan-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Car Buying &amp; Loans</span>
@@ -2492,11 +2492,11 @@ const Home = () => {
                             width: "1080px",
                             marginRight: "50px",
                           }}
-                          class="bx-clone"
+                          className="bx-clone"
                         >
                           <a href="/investment-funds">
                             <i
-                              class="icon-business-medium"
+                              className="icon-business-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Florish Bank for Business</span>
@@ -2510,10 +2510,10 @@ const Home = () => {
                             width: "1080px",
                             marginRight: "50px",
                           }}
-                          class="bx-clone"
+                          className="bx-clone"
                         >
                           <a href="/personal-loans">
-                            <i class="icon-cpc-medium" aria-hidden="true"></i>
+                            <i className="icon-cpc-medium" aria-hidden="true"></i>
                             <span>Florish Bank Private Client</span>
                           </a>
                         </li>
@@ -2528,7 +2528,7 @@ const Home = () => {
                         >
                           <a href="/investing">
                             <i
-                              class="icon-checking-small"
+                              className="icon-checking-small"
                               aria-hidden="true"
                             ></i>
                             <span>Invest</span>
@@ -2545,7 +2545,7 @@ const Home = () => {
                         >
                           <a href="/32-month-balance-transfer">
                             <i
-                              class="icon-credit-score-medium"
+                              className="icon-credit-score-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Free credit score</span>
@@ -2562,7 +2562,7 @@ const Home = () => {
                         >
                           <a href="/premier-accounts">
                             <i
-                              class="icon-savings-bank-medium"
+                              className="icon-savings-bank-medium"
                               aria-hidden="true"
                             ></i>
                             <span>
@@ -2582,7 +2582,7 @@ const Home = () => {
                         >
                           <a href="/bank-accounts">
                             <i
-                              class="icon-checking-medium"
+                              className="icon-checking-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Checking Accounts</span>
@@ -2599,7 +2599,7 @@ const Home = () => {
                         >
                           <a href="/advance">
                             <i
-                              class="icon-credit-medium"
+                              className="icon-credit-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Find a credit card</span>
@@ -2616,7 +2616,7 @@ const Home = () => {
                         >
                           <a href="/home-insurance">
                             <i
-                              class="icon-mortgage2-medium"
+                              className="icon-mortgage2-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Home Lending</span>
@@ -2633,7 +2633,7 @@ const Home = () => {
                         >
                           <a href="/income-cover">
                             <i
-                              class="icon-Auto-loan-medium"
+                              className="icon-Auto-loan-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Car Buying &amp; Loans</span>
@@ -2650,7 +2650,7 @@ const Home = () => {
                         >
                           <a href="/investment-funds">
                             <i
-                              class="icon-business-medium"
+                              className="icon-business-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Florish Bank for Business</span>
@@ -2666,7 +2666,7 @@ const Home = () => {
                           }}
                         >
                           <a href="/personal-loans">
-                            <i class="icon-cpc-medium" aria-hidden="true"></i>
+                            <i className="icon-cpc-medium" aria-hidden="true"></i>
                             <span>Florish Bank Private Client</span>
                           </a>
                         </li>
@@ -2678,11 +2678,11 @@ const Home = () => {
                             width: "1080px",
                             marginRight: "50px",
                           }}
-                          class="bx-clone"
+                          className="bx-clone"
                         >
                           <a href="/investing">
                             <i
-                              class="icon-checking-small"
+                              className="icon-checking-small"
                               aria-hidden="true"
                             ></i>
                             <span>Invest</span>
@@ -2696,11 +2696,11 @@ const Home = () => {
                             width: "1080px",
                             marginRight: "50px",
                           }}
-                          class="bx-clone"
+                          className="bx-clone"
                         >
                           <a href="/32-month-balance-transfer">
                             <i
-                              class="icon-credit-score-medium"
+                              className="icon-credit-score-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Free credit score</span>
@@ -2714,11 +2714,11 @@ const Home = () => {
                             width: "1080px",
                             marginRight: "50px",
                           }}
-                          class="bx-clone"
+                          className="bx-clone"
                         >
                           <a href="/premier-accounts">
                             <i
-                              class="icon-savings-bank-medium"
+                              className="icon-savings-bank-medium"
                               aria-hidden="true"
                             ></i>
                             <span>
@@ -2735,11 +2735,11 @@ const Home = () => {
                             width: "1080px",
                             marginRight: "50px",
                           }}
-                          class="bx-clone"
+                          className="bx-clone"
                         >
                           <a href="/bank-accounts">
                             <i
-                              class="icon-checking-medium"
+                              className="icon-checking-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Checking Accounts</span>
@@ -2753,11 +2753,11 @@ const Home = () => {
                             width: "1080px",
                             marginRight: "50px",
                           }}
-                          class="bx-clone"
+                          className="bx-clone"
                         >
                           <a href="/advance">
                             <i
-                              class="icon-credit-medium"
+                              className="icon-credit-medium"
                               aria-hidden="true"
                             ></i>
                             <span>Find a credit card</span>
@@ -2766,100 +2766,100 @@ const Home = () => {
                       </ul>
                     </div>
                     <div
-                      class="bx-controls bx-has-pager bx-has-controls-direction"
+                      className="bx-controls bx-has-pager bx-has-controls-direction"
                       bis_skin_checked="1"
                     >
                       <div
-                        class="bx-pager bx-default-pager"
+                        className="bx-pager bx-default-pager"
                         bis_skin_checked="1"
                       >
-                        <div class="bx-pager-item" bis_skin_checked="1">
+                        <div className="bx-pager-item" bis_skin_checked="1">
                           <a
                             href="/"
                             data-slide-index="0"
-                            class="bx-pager-link"
+                            className="bx-pager-link"
                           >
                             1
                           </a>
                         </div>
-                        <div class="bx-pager-item" bis_skin_checked="1">
+                        <div className="bx-pager-item" bis_skin_checked="1">
                           <a
                             href="/"
                             data-slide-index="1"
-                            class="bx-pager-link"
+                            className="bx-pager-link"
                           >
                             2
                           </a>
                         </div>
-                        <div class="bx-pager-item" bis_skin_checked="1">
+                        <div className="bx-pager-item" bis_skin_checked="1">
                           <a
                             href="/"
                             data-slide-index="2"
-                            class="bx-pager-link active"
+                            className="bx-pager-link active"
                           >
                             3
                           </a>
                         </div>
-                        <div class="bx-pager-item" bis_skin_checked="1">
+                        <div className="bx-pager-item" bis_skin_checked="1">
                           <a
                             href="/"
                             data-slide-index="3"
-                            class="bx-pager-link"
+                            className="bx-pager-link"
                           >
                             4
                           </a>
                         </div>
-                        <div class="bx-pager-item" bis_skin_checked="1">
+                        <div className="bx-pager-item" bis_skin_checked="1">
                           <a
                             href="/"
                             data-slide-index="4"
-                            class="bx-pager-link"
+                            className="bx-pager-link"
                           >
                             5
                           </a>
                         </div>
-                        <div class="bx-pager-item" bis_skin_checked="1">
+                        <div className="bx-pager-item" bis_skin_checked="1">
                           <a
                             href="/"
                             data-slide-index="5"
-                            class="bx-pager-link"
+                            className="bx-pager-link"
                           >
                             6
                           </a>
                         </div>
-                        <div class="bx-pager-item" bis_skin_checked="1">
+                        <div className="bx-pager-item" bis_skin_checked="1">
                           <a
                             href="/"
                             data-slide-index="6"
-                            class="bx-pager-link"
+                            className="bx-pager-link"
                           >
                             7
                           </a>
                         </div>
-                        <div class="bx-pager-item" bis_skin_checked="1">
+                        <div className="bx-pager-item" bis_skin_checked="1">
                           <a
                             href="/"
                             data-slide-index="7"
-                            class="bx-pager-link"
+                            className="bx-pager-link"
                           >
                             8
                           </a>
                         </div>
-                        <div class="bx-pager-item" bis_skin_checked="1">
+                        <div className="bx-pager-item" bis_skin_checked="1">
                           <a
                             href="/"
                             data-slide-index="8"
-                            class="bx-pager-link"
+                            className="bx-pager-link"
                           >
                             9
                           </a>
                         </div>
                       </div>
-                      <div class="bx-controls-direction" bis_skin_checked="1">
-                        <a class="bx-prev" href="/">
+                      <div className="bx-controls-direction" bis_skin_checked="1">
+                        <a className="bx-prev" href="/">
                           Prev
                         </a>
-                        <a class="bx-next" href="/">
+                        <a className="bx-next" href="/">
                           Next
                         </a>
                       </div>
@@ -2867,15 +2867,15 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 no-padding" bis_skin_checked="1">
+              <div className="col-md-3 no-padding" bis_skin_checked="1">
                 <div
-                  class="single-colorful-feature feature-color-1"
+                  className="single-colorful-feature feature-color-1"
                   bis_skin_checked="1"
                 >
                   <h2>
                     <a href="/saving-accounts">
                       Bank Accounts
-                      <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      <i className="fa fa-angle-right" aria-hidden="true"></i>
                     </a>
                   </h2>
                   <p>
@@ -2883,57 +2883,57 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div class="col-md-3 no-padding" bis_skin_checked="1">
+              <div className="col-md-3 no-padding" bis_skin_checked="1">
                 <div
-                  class="single-colorful-feature feature-color-2"
+                  className="single-colorful-feature feature-color-2"
                   bis_skin_checked="1"
                 >
                   <h2>
                     <a href="/mortgages">
                       Mortgages
-                      <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      <i className="fa fa-angle-right" aria-hidden="true"></i>
                     </a>
                   </h2>
                   <p>Find one that’s right for your needs and circumstances.</p>
                 </div>
               </div>
-              <div class="col-md-3 no-padding" bis_skin_checked="1">
+              <div className="col-md-3 no-padding" bis_skin_checked="1">
                 <div
-                  class="single-colorful-feature feature-color-3"
+                  className="single-colorful-feature feature-color-3"
                   bis_skin_checked="1"
                 >
                   <h2>
                     <a href="/travel-insurance">
                       Travel Money
-                      <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      <i className="fa fa-angle-right" aria-hidden="true"></i>
                     </a>
                   </h2>
                   <p>Check rates and order online now.</p>
                 </div>
               </div>
-              <div class="col-md-3 no-padding" bis_skin_checked="1">
+              <div className="col-md-3 no-padding" bis_skin_checked="1">
                 <div
-                  class="single-colorful-feature feature-color-4"
+                  className="single-colorful-feature feature-color-4"
                   bis_skin_checked="1"
                 >
                   <h2>
                     <a href="/flexible-saver">
                       Savings
-                      <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      <i className="fa fa-angle-right" aria-hidden="true"></i>
                     </a>
                   </h2>
                   <p>See how we could help your money work harder.</p>
                 </div>
               </div>
-              <div class="col-md-3 no-padding" bis_skin_checked="1">
+              <div className="col-md-3 no-padding" bis_skin_checked="1">
                 <div
-                  class="single-colorful-feature feature-color-3"
+                  className="single-colorful-feature feature-color-3"
                   bis_skin_checked="1"
                 >
                   <h2>
                     <a href="/insurance">
                       Insurance
-                      <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      <i className="fa fa-angle-right" aria-hidden="true"></i>
                     </a>
                   </h2>
                   <p>Protect your family and property.</p>
@@ -2943,20 +2943,20 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="business-wr" bis_skin_checked="1">
-          <div class="container" bis_skin_checked="1">
-            <div class="row" bis_skin_checked="1">
-              <div class="col-md-4" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+        <div className="business-wr" bis_skin_checked="1">
+          <div className="container" bis_skin_checked="1">
+            <div className="row" bis_skin_checked="1">
+              <div className="col-md-4" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
-                    <img src="../../assets/blog-1.jpg" alt="slide 1" class="" />
+                    <img src="../../assets/blog-1.jpg" alt="slide 1" className="" />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/isas-accounts">
                       Up to $20,000 this tax year
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -2975,17 +2975,17 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+              <div className="col-md-4" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
-                    <img src="../../assets/blog-2.jpg" alt="slide 1" class="" />
+                    <img src="../../assets/blog-2.jpg" alt="slide 1" className="" />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/contactandsupport">
                       Book an appointment
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -2997,17 +2997,17 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+              <div className="col-md-4" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
-                    <img src="../../assets/blog-3.jpg" alt="slide 1" class="" />
+                    <img src="../../assets/blog-3.jpg" alt="slide 1" className="" />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/sharedealing">
                       Ring-fencing
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -3021,20 +3021,20 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="business-portfolio-1x" id="portfolio" bis_skin_checked="1">
-          <div class="container" bis_skin_checked="1">
-            <div class="row" style={{ padding: "30px 0" }} bis_skin_checked="1">
-              <div class="col-md-3" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+        <div className="business-portfolio-1x" id="portfolio" bis_skin_checked="1">
+          <div className="container" bis_skin_checked="1">
+            <div className="row" style={{ padding: "30px 0" }} bis_skin_checked="1">
+              <div className="col-md-3" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
-                    <img src="../../assets/blog-4.jpg" alt="slide 1" class="" />
+                    <img src="../../assets/blog-4.jpg" alt="slide 1" className="" />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/insurance">
                       Insurance
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -3042,17 +3042,17 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+              <div className="col-md-3" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
-                    <img src="../../assets/blog-5.jpg" alt="slide 1" class="" />
+                    <img src="../../assets/blog-5.jpg" alt="slide 1" className="" />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/premier">
                       Activate your card
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -3063,17 +3063,17 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+              <div className="col-md-3" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
-                    <img src="../../assets/blog-6.jpg" alt="slide 1" class="" />
+                    <img src="../../assets/blog-6.jpg" alt="slide 1" className="" />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/quality-conversations">
                       Security centre
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -3083,17 +3083,17 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+              <div className="col-md-3" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
-                    <img src="../../assets/blog-7.jpg" alt="slide 1" class="" />
+                    <img src="../../assets/blog-7.jpg" alt="slide 1" className="" />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/ways-we-can-help">
                       Helpful guides
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -3105,7 +3105,7 @@ const Home = () => {
                 </div>
               </div>
               <div
-                class="col-sm-12"
+                className="col-sm-12"
                 style={{
                   height: "1px",
                   width: "100%",
@@ -3113,17 +3113,17 @@ const Home = () => {
                 }}
                 bis_skin_checked="1"
               ></div>
-              <div class="col-md-3" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+              <div className="col-md-3" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
-                    <img src="../../assets/bl-840.jpg" alt="slide 1" class="" />
+                    <img src="../../assets/bl-840.jpg" alt="slide 1" className="" />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/life-events">
                       Secure Key
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -3134,17 +3134,17 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+              <div className="col-md-3" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
-                    <img src="../../assets/blog-9.jpg" alt="slide 1" class="" />
+                    <img src="../../assets/blog-9.jpg" alt="slide 1" className="" />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/premier-accounts">
                       Voice ID
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -3154,17 +3154,17 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+              <div className="col-md-3" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
-                    <img src="../../assets/blog-8.jpg" alt="slide 1" class="" />
+                    <img src="../../assets/blog-8.jpg" alt="slide 1" className="" />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/advance">
                       Card support
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -3174,21 +3174,21 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3" bis_skin_checked="1">
-                <div class="single-bolg hover01" bis_skin_checked="1">
+              <div className="col-md-3" bis_skin_checked="1">
+                <div className="single-bolg hover01" bis_skin_checked="1">
                   <figure>
                     <img
                       src="../../assets/couple-hiking-840.jpg"
                       alt="slide 1"
-                      class=""
+                      className=""
                     />
                   </figure>
-                  <div class="blog-content" bis_skin_checked="1">
+                  <div className="blog-content" bis_skin_checked="1">
                     <a href="/insurance">
                       PPI
                       <i
                         style={{ marginLeft: "10px" }}
-                        class="fa fa-angle-right"
+                        className="fa fa-angle-right"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -3200,44 +3200,44 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="padding-top-large" bis_skin_checked="1"></div>
+        <div className="padding-top-large" bis_skin_checked="1"></div>
 
-        <div class="business-app-present-2x" bis_skin_checked="1">
-          <div class="app-present-content-2" bis_skin_checked="1">
-            <div class="container" bis_skin_checked="1">
-              <div class="row" bis_skin_checked="1">
-                <div class="col-md-12" bis_skin_checked="1">
-                  <div class="business-title-middle" bis_skin_checked="1">
+        <div className="business-app-present-2x" bis_skin_checked="1">
+          <div className="app-present-content-2" bis_skin_checked="1">
+            <div className="container" bis_skin_checked="1">
+              <div className="row" bis_skin_checked="1">
+                <div className="col-md-12" bis_skin_checked="1">
+                  <div className="business-title-middle" bis_skin_checked="1">
                     <h2>Your news and information</h2>
-                    <span class="title-border-middle"></span>
+                    <span className="title-border-middle"></span>
                   </div>
                 </div>
 
-                <div class="col-md-5" bis_skin_checked="1">
-                  <div class="app-present-left-2" bis_skin_checked="1">
+                <div className="col-md-5" bis_skin_checked="1">
+                  <div className="app-present-left-2" bis_skin_checked="1">
                     <img
                       src="../../assets/Question-mark.jpg"
                       alt="Mountains"
-                      class=""
+                      className=""
                     />
                   </div>
                 </div>
                 <div
-                  class="col-md-6"
+                  className="col-md-6"
                   style={{ backgroundColor: "rgba(3, 61, 117, .1)" }}
                   bis_skin_checked="1"
                 >
-                  <div class="app-present-right-2" bis_skin_checked="1">
-                    <div class="single-app-present" bis_skin_checked="1">
-                      <div class="media" bis_skin_checked="1">
-                        <div class="media-body" bis_skin_checked="1">
+                  <div className="app-present-right-2" bis_skin_checked="1">
+                    <div className="single-app-present" bis_skin_checked="1">
+                      <div className="media" bis_skin_checked="1">
+                        <div className="media-body" bis_skin_checked="1">
                           <h2>Account questions? Just ask me.</h2>
                           <p>
                             I'm just a few taps away — open your Florish Bank®
                             mobile app and say hello.
                           </p>
                           <a
-                            class="bussiness-btn-larg"
+                            className="bussiness-btn-larg"
                             href="/contactandsupport"
                           >
                             ask questions
@@ -3252,18 +3252,18 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="padding-top-large" bis_skin_checked="1"></div>
+        <div className="padding-top-large" bis_skin_checked="1"></div>
 
-        <div class="business-cta-1x" bis_skin_checked="1">
-          <div class="container" bis_skin_checked="1">
-            <div class="row" bis_skin_checked="1">
-              <div class="col-md-12" bis_skin_checked="1">
-                <div class="cta-content" bis_skin_checked="1">
+        <div className="business-cta-1x" bis_skin_checked="1">
+          <div className="container" bis_skin_checked="1">
+            <div className="row" bis_skin_checked="1">
+              <div className="col-md-12" bis_skin_checked="1">
+                <div className="cta-content" bis_skin_checked="1">
                   <h2>Open our most popular savings account</h2>
                   <h3>
                     Apply for a new Savings<sup>℠</sup> account in minutes.
                   </h3>
-                  <a href="/register" class="bussiness-btn-larg">
+                  <a href="/register" className="bussiness-btn-larg">
                     apply Now
                   </a>
                 </div>
@@ -3272,9 +3272,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="col-sm-12 connectus" bis_skin_checked="1">
-          <div class="container" bis_skin_checked="1">
-            <div class="inner-connect" bis_skin_checked="1">
+        <div className="col-sm-12 connectus" bis_skin_checked="1">
+          <div className="container" bis_skin_checked="1">
+            <div className="inner-connect" bis_skin_checked="1">
               <h5> Connect with us </h5>
               <a href="/index">
                 Listening to what you have to say about our services matters to
@@ -3283,96 +3283,96 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <footer class="bussiness-footer-1x">
-          <div class="bussiness-footer-content " bis_skin_checked="1">
-            <div class="container" bis_skin_checked="1">
-              <div class="row" bis_skin_checked="1">
-                <div class="col-md-3" bis_skin_checked="1">
+        <footer className="bussiness-footer-1x">
+          <div className="bussiness-footer-content " bis_skin_checked="1">
+            <div className="container" bis_skin_checked="1">
+              <div className="row" bis_skin_checked="1">
+                <div className="col-md-3" bis_skin_checked="1">
                   <h5> Help &amp; support </h5>
                   <a href="/contactandsupport">
                     Got a question? We are here to help you{" "}
                   </a>
                 </div>
-                <div class="col-md-3" bis_skin_checked="1">
+                <div className="col-md-3" bis_skin_checked="1">
                   <h5> Find a branch </h5>
                   <a href="/ways-we-can-help">
                     Find your nearest Florish Bank Banking location
                   </a>
                 </div>
-                <div class="col-md-3" bis_skin_checked="1">
+                <div className="col-md-3" bis_skin_checked="1">
                   <h5> Our performance </h5>
                   <a href="/investing">
                     View our service dashboard to see how we're doing
                   </a>
                 </div>
 
-                <div class="col-md-3" bis_skin_checked="1">
+                <div className="col-md-3" bis_skin_checked="1">
                   <h5> About Florish Bank </h5>
                   <a href="/news">
                     Careers, media, investor and corporate information
                   </a>
                 </div>
 
-                <div class="container" bis_skin_checked="1">
-                  <div class="" bis_skin_checked="1">
-                    <div class="col-md-12 footer-info" bis_skin_checked="1">
-                      <div class="row" bis_skin_checked="1">
-                        <p class="text-center">
+                <div className="container" bis_skin_checked="1">
+                  <div className="" bis_skin_checked="1">
+                    <div className="col-md-12 footer-info" bis_skin_checked="1">
+                      <div className="row" bis_skin_checked="1">
+                        <p className="text-center">
                           Florish Bank is federally insured by the National
                           Credit Union Administration. We do business in
                           accordance with the Fair Housing Law and Equal
                           opportunity Credit Act.
                         </p>
 
-                        <div class="col-md-3" bis_skin_checked="1">
-                          <div class="footer-info-left" bis_skin_checked="1">
+                        <div className="col-md-3" bis_skin_checked="1">
+                          <div className="footer-info-left" bis_skin_checked="1">
                             <img
                               style={{ maxWidth: "125px" }}
                               src="../../assets/footerlogo.jpg"
-                              class="d-inline-block align-top"
+                              className="d-inline-block align-top"
                               alt=""
                             />
                           </div>
                         </div>
-                        <div class="col-md-6 text-center" bis_skin_checked="1">
+                        <div className="col-md-6 text-center" bis_skin_checked="1">
                           301 East Water Street, Charlottesville, VA 22904
                           Virginia.
                           <br />
                           <strong>Call us : &lt;+1 360 203 4850 &gt;</strong>
                         </div>
 
-                        <div class="col-md-3" bis_skin_checked="1">
-                          <div class="footer-info-right" bis_skin_checked="1">
+                        <div className="col-md-3" bis_skin_checked="1">
+                          <div className="footer-info-right" bis_skin_checked="1">
                             <ul>
                               <li>
                                 <a href="/##">
                                   {" "}
-                                  <i class="fa fa-facebook"></i>{" "}
+                                  <i className="fa fa-facebook"></i>{" "}
                                 </a>
                               </li>
                               <li>
                                 <a href="/##">
                                   {" "}
-                                  <i class="fa fa-twitter"></i>{" "}
+                                  <i className="fa fa-twitter"></i>{" "}
                                 </a>
                               </li>
                               <li>
                                 <a href="/##">
                                   {" "}
-                                  <i class="fa fa-google"></i>{" "}
+                                  <i className="fa fa-google"></i>{" "}
                                 </a>
                               </li>
                               <li>
                                 <a href="/##" target="_blank" rel="noreferrer">
                                   {" "}
-                                  <i class="fa fa-linkedin"></i>{" "}
+                                  <i className="fa fa-linkedin"></i>{" "}
                                 </a>
                               </li>
                             </ul>
                           </div>
                         </div>
                         <div
-                          class="col-md-12 text-center text-muted"
+                          className="col-md-12 text-center text-muted"
                           bis_skin_checked="1"
                         >
                           © 2023 Florish Bank- All rights reserved.
@@ -3410,41 +3410,41 @@ const Home = () => {
         <script src="../../assets/jquery.magnific-popup.min.js.download"></script>
         <script src="../../assets/color-switcher.js.download"></script>
         <script src="../../assets/color-switcher-active.js.download"></script>
-        <div class="ColorSwitcher" bis_skin_checked="1">
-          <button class="ColorSwitcher__control"></button>
-          <div class="ColorSwitcher__switchs" bis_skin_checked="1">
+        <div className="ColorSwitcher" bis_skin_checked="1">
+          <button className="ColorSwitcher__control"></button>
+          <div className="ColorSwitcher__switchs" bis_skin_checked="1">
             <button
-              class="ColorSwitcher__switch"
+              className="ColorSwitcher__switch"
               title="Blue to Red"
               data-index="0"
               style={{ backgroundColor: "rgb(3, 61, 117)" }}
             ></button>
             <button
-              class="ColorSwitcher__switch"
+              className="ColorSwitcher__switch"
               title="Cyan to Orange"
               data-index="1"
               style={{ backgroundColor: "rgb(31, 166, 154)" }}
             ></button>
             <button
-              class="ColorSwitcher__switch"
+              className="ColorSwitcher__switch"
               title="Blue to Orange"
               data-index="2"
               style={{ backgroundColor: "rgb(6, 116, 236)" }}
             ></button>
             <button
-              class="ColorSwitcher__switch"
+              className="ColorSwitcher__switch"
               title="Green to Violet"
               data-index="3"
               style={{ backgroundColor: "rgb(46, 158, 4)" }}
             ></button>
             <button
-              class="ColorSwitcher__switch"
+              className="ColorSwitcher__switch"
               title="Sky"
               data-index="4"
               style={{ backgroundColor: "rgb(88, 201, 233)" }}
             ></button>
             <button
-              class="ColorSwitcher__switch"
+              className="ColorSwitcher__switch"
               title="Red"
               data-index="5"
               style={{ backgroundColor: "rgb(255, 106, 109)" }}

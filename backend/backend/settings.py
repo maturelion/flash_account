@@ -37,9 +37,11 @@ INSTALLED_APPS = [
     "corsheaders",
     'users',
     'activity',
+    'wallets',
     'rest_framework',
     'rest_framework.authtoken',
     'dj_rest_auth',
+    "django_filters",
     'django.contrib.sites',
     'allauth',
     'allauth.account',
@@ -69,7 +71,7 @@ REST_AUTH = {
 
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(days=1),
-    "REFRESH_TOKEN_LIFETIME": timedelta(days=5),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
 }
 
 MIDDLEWARE = [
@@ -149,6 +151,8 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+
 
 
 # Static files (CSS, JavaScript, Images)

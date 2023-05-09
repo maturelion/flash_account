@@ -3,8 +3,8 @@ import { createAsyncThunk } from '@reduxjs/toolkit'
 
 const endPoint = process.env.REACT_APP_API_URL
 
-export const getActivities = createAsyncThunk(
-  'activity/getActivities',
+export const getWallet = createAsyncThunk(
+  'activity/getWallet',
   async ({user},{ rejectWithValue }) => {
     console.log(user, "user")
     try {
@@ -15,7 +15,7 @@ export const getActivities = createAsyncThunk(
         },
       }
       const res = await axios.get(
-        `${endPoint}/activities/?user=${user}`,
+        `${endPoint}/wallets/${user}`,
         config
       )
       return res

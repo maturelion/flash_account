@@ -7,10 +7,12 @@ from rest_framework.routers import DefaultRouter
 from activity.views import ActivityViewSet
 
 from users.views import UserViewSet
+from wallets.views import WalletViewSet
 
 router = DefaultRouter()
 router.register("users", UserViewSet, "user")
 router.register("activities", ActivityViewSet, "activity")
+router.register("wallets", WalletViewSet, "wallet")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
