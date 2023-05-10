@@ -1,5 +1,5 @@
+from django.utils.crypto import get_random_string
 from django.db import models
-
 from users.models import User
 
 TX_TYPE = [
@@ -27,8 +27,16 @@ class Activity(models.Model):
     status = models.CharField(max_length=50, choices=STATUS, default="pending")
     description = models.CharField(max_length=50)
     scope = models.CharField(max_length=50)
-    ref = models.CharField(max_length=50)
-    date = models.DateTimeField(auto_now_add=True)
+    ref = models.CharField(max_length=50, blank=True)
+    date = models.DateTimeField()
 
     class Meta:
         ordering = ["-date"]
+
+
+    def save(self, *args, **kwargs):
+        chars = "abcdefghijklmnopqrstuvwxyz"
+        if not self.ref:
+            self.ref = get_random_string(9, chars).upper() + "-" + "" + f"{self.date.day:02d}" + f"{self.date.month:02d}"
+
+        super(Activity, self).save(*args, **kwargs)

@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 import axios from "axios";
 import { logoutUser } from "../../feature/auth/AuthActions";
+import TransactionDetails from "./TransactionDetails";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -19,6 +20,7 @@ const Dashboard = () => {
   let USDollar = new Intl.NumberFormat();
 
   const [showMenu, setShowMenu] = useState(false)
+  const [showTXDetails, setShowTXDetails] = useState(false)
 
   //creating function to load ip address from the API
   const getData = async () => {
@@ -535,7 +537,10 @@ const Dashboard = () => {
                                         className="user-avatar"
                                         bis_skin_checked="1"
                                       >
-                                        <span>MC</span>
+                                        <span>{user.first_name &&
+                                              user.first_name.slice(0, 1)}
+                                            {user.last_name &&
+                                              user.last_name.slice(0, 1)}</span>
                                       </div>
                                       <div
                                         className="user-info"
@@ -545,7 +550,7 @@ const Dashboard = () => {
                                           {user.first_name} {user.last_name}
                                         </span>
                                         <span className="sub-text">
-                                          4460484609
+                                          {user.account_number}
                                         </span>
                                       </div>
                                       <div
@@ -1187,7 +1192,7 @@ const Dashboard = () => {
                                   <span className="lead-text">
                                     {user.first_name} {user.last_name}
                                   </span>
-                                  <span className="sub-text">4460484609</span>
+                                  <span className="sub-text">{user.account_number}</span>
                                 </div>
                               </div>
                             </div>
@@ -1524,7 +1529,7 @@ const Dashboard = () => {
                                           <em className="icon ni ni-sign-cc-alt"></em>
                                         </div>
                                         <h5 className="nk-wgw-title title">
-                                          *****84609
+                                          *****{user.account_number.slice(5)}
                                         </h5>
                                       </div>
                                       <div
@@ -1701,7 +1706,7 @@ const Dashboard = () => {
                             className="tranx-list card card-bordered"
                             bis_skin_checked="1"
                           >
-                            {activity.map((data) => {
+                            {activity.map((data, index) => {
                               const date = new Date(data.date)
                               const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
                               return (<div className="tranx-item" bis_skin_checked="1">
@@ -1725,8 +1730,7 @@ const Dashboard = () => {
                                         className="tranx-date"
                                         bis_skin_checked="1"
                                       >
-                                        {/* 21 Apr 2023, 12:51 pm */}
-                                        {date.getDay()} {monthNames[date.getMonth()]} {date.getFullYear()}, {date.getHours()}:{date.getHours()} {date.getHours() > 12 ? "pm" : "am" }
+                                        {date.getDate()} {monthNames[date.getMonth()]} {date.getFullYear()}, {date.getHours()}:{date.getHours()} {date.getHours() > 12 ? "pm" : "am" }
                                       </div>
                                       <div
                                         className="text-primary"
@@ -1785,11 +1789,18 @@ const Dashboard = () => {
                                       className="badge badge-dim badge-pill badge-outline-primary"
                                       data-toggle="modal"
                                       data-target="#modalDefault369"
+                                      onClick={() => setShowTXDetails(true)}
                                     >
                                       View Details
                                     </span>
                                   </div>
                                 </div>
+                                <TransactionDetails
+                                  data={data}
+                                  showTXDetails={showTXDetails}
+                                  setShowTXDetails={setShowTXDetails}
+                                  wallet={wallet}
+                                />
                               </div>)
                             })}
                             <input type="hidden" id="debit1" value="75" />

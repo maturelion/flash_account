@@ -33,22 +33,11 @@ class UserAdminConfig(UserAdmin):
                     "username",
                     "first_name",
                     "last_name",
+                    "account_number",
                     "password",
                 )
             },
         ),
-        (
-            "Permissions",
-            {
-                "fields": (
-                    "is_active",
-                    "is_staff",
-                    "is_superuser",
-                    "groups",
-                )
-            },
-        ),
-        ("Activity", {"fields": ("last_login",)}),
     )
 
     add_fieldsets = (
@@ -63,6 +52,7 @@ class UserAdminConfig(UserAdmin):
                     "password2",
                     "first_name",
                     "last_name",
+                    "account_number",
                     "is_active",
                     "is_staff",
                 ),

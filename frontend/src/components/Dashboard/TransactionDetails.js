@@ -1,12 +1,17 @@
 import React from "react";
 
 const TransactionDetails = (props) => {
+  const {data, wallet, showTXDetails, setShowTXDetails} = props
+  let USDollar = new Intl.NumberFormat();
+  const date = new Date(data.date)
+  const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
   return (
     <div
       className="modal fade"
       tabindex="-1"
       id="modalDefault282"
       bis_skin_checked="1"
+      style={{opacity: `${showTXDetails ? 1 : 0}`, display: `${showTXDetails ? "block" : "none"}`}}
     >
       <div className="modal-dialog" role="document" bis_skin_checked="1">
         <div className="modal-content" bis_skin_checked="1">
@@ -15,14 +20,14 @@ const TransactionDetails = (props) => {
             bis_skin_checked="1"
           >
             <h5 className="modal-title text-light">Transaction Details</h5>
-            <a
-              href="/personal-banking/dashboard.php?viewSource=4uwVoHdaMMQi0pGzB24FqiRTjxrY5RNyek3udOlqkIoOVYwzrKP7fsW4DzKndCVKpqXE#"
+            <div
               className="close text-light"
               data-dismiss="modal"
               aria-label="Close"
+              onClick={() => setShowTXDetails(false)}
             >
               <em className="icon ni ni-cross"></em>
-            </a>
+            </div>
           </div>
           <div className="modal-body" bis_skin_checked="1">
             <ul className="buysell-overview-list">
@@ -31,14 +36,14 @@ const TransactionDetails = (props) => {
                   <em className="icon ni ni-check-circle-fill"></em>
                   <span>Amount Debited</span>
                 </span>
-                <span className="pm-title">USD 130020</span>
+                <span className="pm-title">USD {USDollar.format(data.amount)}</span>
               </li>
               <li className="buysell-overview-item">
                 <span className="pm-currency">
                   <em className="icon ni ni-check-circle-fill"></em>
                   <span>Transaction refrence:</span>
                 </span>
-                <span className="pm-title">FLO/NRNAKMJOM-0622</span>
+                <span className="pm-title">{data.ref}</span>
               </li>
               <li className="buysell-overview-item">
                 <span className="pm-currency">
@@ -61,7 +66,7 @@ const TransactionDetails = (props) => {
                   <em className="icon ni ni-check-circle-fill"></em>
                   <span>Date:</span>
                 </span>
-                <span className="pm-title">13 Jun 2022, 4:44 pm</span>
+                <span className="pm-title">{date.getDate()} {monthNames[date.getMonth()]} {date.getFullYear()}, {date.getHours()}:{date.getHours()} {date.getHours() > 12 ? "pm" : "am" }</span>
               </li>
 
               <li className="buysell-overview-item">
@@ -69,7 +74,7 @@ const TransactionDetails = (props) => {
                   <em className="icon ni ni-check-circle-fill"></em>
                   <span>Available Balance:</span>
                 </span>
-                <span className="pm-title">USD 177,854,397</span>
+                <span className="pm-title">USD {USDollar.format(wallet.balance)}</span>
               </li>
             </ul>
           </div>
