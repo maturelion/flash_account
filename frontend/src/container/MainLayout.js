@@ -17,13 +17,13 @@ const MainLayout = () => {
 
   useEffect(() => {
     dispatch(getUser({}))
-    dispatch(getActivities({user: user.id}))
-    dispatch(getWallet({user: user.id}))
-  }, [dispatch, user.id])
+    Object.keys(user).length && dispatch(getActivities({user: user.id}))
+    Object.keys(user).length && dispatch(getWallet({user: user.id}))
+  }, [dispatch, user])
 
   useEffect(() => {
     if(localStorage.getItem('token') === null) {
-      navigate("/login")
+      navigate("/")
     }
   }, [navigate])
 

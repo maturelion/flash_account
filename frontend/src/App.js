@@ -9,8 +9,10 @@ import Transfer from './components/Transfer/Transfer';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<MainLayout />}>
+      <Route path="/dashboard" element={<MainLayout />}>
         <Route path="/dashboard" element={<Dashboard />}></Route>
+      </Route>
+      <Route path="/transfer" element={<MainLayout />}>
         <Route path="/transfer" element={<Transfer />}></Route>
       </Route>
       <Route path="/" element={<AuthLayout />}>
