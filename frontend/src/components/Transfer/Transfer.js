@@ -300,7 +300,7 @@ const Transfer = () => {
                 <div className="container-xl wide-lg" bis_skin_checked="1">
                   <div className="nk-content-body" bis_skin_checked="1">
                     <div className="nk-block-head" bis_skin_checked="1">
-                      <div style={{width: "70%", marginInline: "auto", border: "1px solid grey", borderRadius: "3px", backgroundColor: "#fff", padding: "20px"}}>
+                      <div style={{width: "90%", marginInline: "auto", border: "1px solid grey", borderRadius: "3px", backgroundColor: "#fff", padding: "20px"}}>
                           <form>
                             <div style={{display: "flex", flexDirection: "column", marginBlock: "10px"}}>
                               <label style={{marginBlock: "5px"}}>Bank Name</label>
