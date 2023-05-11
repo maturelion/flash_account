@@ -9,7 +9,7 @@ import { addActivities } from "../../feature/activity/ActivityActions";
 const Transfer = () => {
     const dispatch = useDispatch()
     // const navigate = useNavigate()
-  const { user } = useSelector((state) => state.user);
+  const { user } = useSelector((state) => state.user)
 
   const [formData, setFormData] = useState({
     user: user.id,

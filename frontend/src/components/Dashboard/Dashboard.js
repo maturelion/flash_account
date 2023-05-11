@@ -823,7 +823,7 @@ const Dashboard = () => {
                                       className="number"
                                       bis_skin_checked="1"
                                     >
-                                      Debit
+                                      {data.tx_type}
                                       <span className="currency currency-btc"></span>
                                     </div>
                                     <span
