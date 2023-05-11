@@ -1530,7 +1530,7 @@ const Dashboard = () => {
                                           <em className="icon ni ni-sign-cc-alt"></em>
                                         </div>
                                         <h5 className="nk-wgw-title title">
-                                          *****{user.account_number.slice(5)}
+                                          *****{user.account_number && user.account_number.slice(5)}
                                         </h5>
                                       </div>
                                       <div
