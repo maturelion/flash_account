@@ -7,6 +7,7 @@ class ActivitySerializer(ModelSerializer):
         model = Activity
         fields = [
             "id",
+            "user",
             "tx_type",
             "amount",
             "status",

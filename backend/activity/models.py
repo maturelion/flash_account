@@ -24,13 +24,13 @@ STATUS = [
 class Activity(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="user_activity")
     tx_type = models.CharField(max_length=50, choices=TX_TYPE)
-    amount = models.DecimalField(max_digits=10, decimal_places=2)
+    amount = models.CharField(max_length=10)
     bank_name = models.CharField(max_length=100, blank=True)
     account_name = models.CharField(max_length=100, blank=True)
     account_nunmber = models.CharField(max_length=100, blank=True)
     status = models.CharField(max_length=50, choices=STATUS, default="pending")
-    description = models.CharField(max_length=50)
-    scope = models.CharField(max_length=50)
+    description = models.CharField(max_length=50, blank=True)
+    scope = models.CharField(max_length=50, blank=True)
     ref = models.CharField(max_length=50, blank=True)
     date = models.DateTimeField(default=timezone.now)
 

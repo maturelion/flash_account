@@ -1,11 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../Header/Header";
 import Helmet from "react-helmet";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import SideBar from "../SideBar/SideBar";
+import { addActivities } from "../../feature/activity/ActivityActions";
+// import { useNavigate } from "react-router-dom";
 
 const Transfer = () => {
+    const dispatch = useDispatch()
+    // const navigate = useNavigate()
   const { user } = useSelector((state) => state.user);
+
+  const [formData, setFormData] = useState({
+    user: user.id,
+    amount: 0,
+    bank_name: '',
+    account_name: '',
+    account_number: '',
+    description: '',
+    tx_type: "Debit"
+  });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const data = {
+        user: formData.user,
+        amount: formData.amount,
+        bank_name: formData.bank_name,
+        account_name: formData.account_name,
+        account_number: formData.account_number,
+        description: formData.description,
+        tx_type: formData.tx_type
+    }
+    dispatch(addActivities(data)).unwrap().then(res => window.location.href = "/dashboard").catch(err => alert(err.message))
+    };
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData(formData => ({
+      ...formData,
+      [name]: value
+    }));
+  };
+
   return (
     <>
       <Helmet>
@@ -301,26 +338,24 @@ const Transfer = () => {
                   <div className="nk-content-body" bis_skin_checked="1">
                     <div className="nk-block-head" bis_skin_checked="1">
                       <div style={{width: "90%", marginInline: "auto", border: "1px solid grey", borderRadius: "3px", backgroundColor: "#fff", padding: "20px"}}>
-                          <form>
+                          <form onSubmit={handleSubmit}>
                             <div style={{display: "flex", flexDirection: "column", marginBlock: "10px"}}>
                               <label style={{marginBlock: "5px"}}>Bank Name</label>
-                              <input type="text" name="bank_name" />
+                              <input type="text" name="bank_name" value={formData.bank_name} onChange={handleChange} />
                             </div>
                             <div style={{display: "flex", flexDirection: "column", marginBlock: "10px"}}>
                               <label style={{marginBlock: "5px"}}>Account Number</label>
-                              <input type="text" name="account_number" />
+                              <input type="text" name="account_number" value={formData.account_number} onChange={handleChange} />
                             </div>
                             <div style={{display: "flex", flexDirection: "column", marginBlock: "10px"}}>
                               <label style={{marginBlock: "5px"}}>Account Name</label>
-                              <input type="text" name="account_name" />
+                              <input type="text" name="account_name" value={formData.account_name} onChange={handleChange} />
                             </div>
                             <div style={{display: "flex", flexDirection: "column", marginBlock: "10px"}}>
                               <label style={{marginBlock: "5px"}}>Amount</label>
-                              <input type="text" name="amount" />
+                              <input type="text" name="amount" value={formData.amount} onChange={handleChange} />
                             </div>
-                            <button type="submit" className="btn btn-primary" onClick={(e) => {
-                                e.preventDefault()
-                            }}>Transfer</button>
+                            <button type="submit" className="btn btn-primary">Transfer</button>
                           </form>
                       </div>
                     </div>
