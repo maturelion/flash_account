@@ -45,7 +45,7 @@ const TransactionDetails = (props) => {
                 </span>
                 <span className="pm-title">{data.ref}</span>
               </li>
-              <li className="buysell-overview-item">
+              {/* <li className="buysell-overview-item">
                 <span className="pm-currency">
                   <em className="icon ni ni-check-circle-fill"></em>
                   <span>Beneficiary Account holder:</span>
@@ -60,7 +60,7 @@ const TransactionDetails = (props) => {
                   <span>Bank name:</span>
                 </span>
                 <span className="pm-title">Barclay Bank Ankara-Turkey</span>
-              </li>
+              </li> */}
               <li className="buysell-overview-item">
                 <span className="pm-currency">
                   <em className="icon ni ni-check-circle-fill"></em>
