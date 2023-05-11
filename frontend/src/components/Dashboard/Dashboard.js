@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Helmet from "react-helmet";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 import axios from "axios";
@@ -493,15 +493,15 @@ const Dashboard = () => {
                                 >
                                   <ul className="g-3">
                                     <li>
-                                      <a
-                                        href="/personal-banking/transfer"
+                                      <Link
+                                        to="/transfer"
                                         className="btn btn-lg btn-primary"
                                       >
                                         <span>
                                           <i className="fas fa-money-bill-alt"></i>
                                           Transfer
                                         </span>
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
                                       <a
@@ -643,13 +643,13 @@ const Dashboard = () => {
                                   </ul>
                                   <ul className="user-account-links">
                                     <li>
-                                      <a
-                                        href="/personal-banking/transfer.php"
+                                      <Link
+                                        to="/transfer"
                                         className="link"
                                       >
                                         <span> Transfer Funds</span>
                                         <em className="icon ni ni-wallet-out"></em>
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
                                       <a
@@ -745,8 +745,8 @@ const Dashboard = () => {
                                     </a>
                                   </li>
                                   <li className="nk-menu-item">
-                                    <a
-                                      href="/personal-banking/transfer"
+                                    <Link
+                                      to="/transfer"
                                       className="nk-menu-link"
                                       data-original-title=""
                                       title=""
@@ -757,7 +757,7 @@ const Dashboard = () => {
                                       <span className="nk-menu-text">
                                         Transfer
                                       </span>
-                                    </a>
+                                    </Link>
                                   </li>
                                   <li className="nk-menu-item">
                                     <a
@@ -775,8 +775,8 @@ const Dashboard = () => {
                                     </a>
                                   </li>
                                   <li className="nk-menu-item">
-                                    <a
-                                      href="/personal-banking/check-deposit"
+                                    <Link
+                                      to="/check-deposit"
                                       className="nk-menu-link"
                                       data-original-title=""
                                       title=""
@@ -787,7 +787,7 @@ const Dashboard = () => {
                                       <span className="nk-menu-text">
                                         Deposit Check
                                       </span>
-                                    </a>
+                                    </Link>
                                   </li>
                                   <li className="nk-menu-item">
                                     <a
@@ -1225,13 +1225,13 @@ const Dashboard = () => {
                                   </span>
                                 </span>
                               </div>
-                              <a
-                                href="/#"
+                              <Link
+                                to="/transfer"
                                 className="link"
                               >
                                 <span>Transfer Funds</span>
                                 <em className="icon ni ni-wallet-out"></em>
-                              </a>
+                              </Link>
                             </div>
                             <div
                               className="dropdown-inner"
@@ -1325,22 +1325,22 @@ const Dashboard = () => {
                         >
                           <ul className="nk-block-tools gx-3">
                             <li>
-                              <a
-                                href="/personal-banking/check-deposit"
+                              <Link
+                                to="/check-deposit"
                                 className="btn btn-primary"
                               >
                                 <span>Deposit</span>
                                 <em className="icon ni ni-arrow-long-right"></em>
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
-                                href="/personal-banking/transfer"
-                                className="btn btn-secondary btn-light text-light"
+                              <Link
+                                to="/transfer"
+                                className="btn btn-secondary"
                               >
                                 <span>Transfer Fund</span>
                                 <em className="icon ni ni-arrow-long-right d-none d-sm-inline-block"></em>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1496,12 +1496,12 @@ const Dashboard = () => {
                                   className="nk-block-head-content"
                                   bis_skin_checked="1"
                                 >
-                                  <a
-                                    href="/personal-banking/transfer"
+                                  <Link
+                                    to="/transfer"
                                     className="link link-primary"
                                   >
                                     Transfer Fund
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </div>
@@ -1693,7 +1693,7 @@ const Dashboard = () => {
                                 Recent Transaction Activities
                               </h5>
                             </div>
-                            <div className="card-tools" bis_skin_checked="1">
+                            {/* <div className="card-tools" bis_skin_checked="1">
                               <ul className="card-tools-nav">
                                 <li className="active">
                                   <a href="/personal-banking/dashboard.php?viewSource=4uwVoHdaMMQi0pGzB24FqiRTjxrY5RNyek3udOlqkIoOVYwzrKP7fsW4DzKndCVKpqXE#">
@@ -1701,7 +1701,7 @@ const Dashboard = () => {
                                   </a>
                                 </li>
                               </ul>
-                            </div>
+                            </div> */}
                           </div>
                           <div
                             className="tranx-list card card-bordered"
