@@ -21,6 +21,7 @@ const Dashboard = () => {
 
   const [showMenu, setShowMenu] = useState(false)
   const [showTXDetails, setShowTXDetails] = useState(false)
+  const [selectedData, setSelectedData] = useState({})
 
   //creating function to load ip address from the API
   const getData = async () => {
@@ -1789,20 +1790,24 @@ const Dashboard = () => {
                                       className="badge badge-dim badge-pill badge-outline-primary"
                                       data-toggle="modal"
                                       data-target="#modalDefault369"
-                                      onClick={() => setShowTXDetails(true)}
+                                      onClick={() => {
+                                        setShowTXDetails(true)
+                                        setSelectedData(data)
+                                      }}
                                     >
                                       View Details
                                     </span>
                                   </div>
                                 </div>
-                                <TransactionDetails
-                                  data={data}
+                                
+                              </div>)
+                            })}
+                            <TransactionDetails
+                                  data={selectedData}
                                   showTXDetails={showTXDetails}
                                   setShowTXDetails={setShowTXDetails}
                                   wallet={wallet}
                                 />
-                              </div>)
-                            })}
                             <input type="hidden" id="debit1" value="75" />
                             <input type="hidden" id="credit1" value="25" />
                           </div>
