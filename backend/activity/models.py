@@ -1,3 +1,4 @@
+from django.utils import timezone
 from django.utils.crypto import get_random_string
 from django.db import models
 from users.models import User
@@ -28,7 +29,7 @@ class Activity(models.Model):
     description = models.CharField(max_length=50)
     scope = models.CharField(max_length=50)
     ref = models.CharField(max_length=50, blank=True)
-    date = models.DateTimeField()
+    date = models.DateTimeField(default=timezone.now)
 
     class Meta:
         ordering = ["-date"]

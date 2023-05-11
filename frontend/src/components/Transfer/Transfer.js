@@ -314,6 +314,10 @@ const Transfer = () => {
                               <label style={{marginBlock: "5px"}}>Account Name</label>
                               <input type="text" name="account_name" />
                             </div>
+                            <div style={{display: "flex", flexDirection: "column", marginBlock: "10px"}}>
+                              <label style={{marginBlock: "5px"}}>Amount</label>
+                              <input type="text" name="amount" />
+                            </div>
                             <button type="submit" className="btn btn-primary" onClick={(e) => {
                                 e.preventDefault()
                             }}>Transfer</button>
