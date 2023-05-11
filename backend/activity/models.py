@@ -28,6 +28,7 @@ class Activity(models.Model):
     bank_name = models.CharField(max_length=100, blank=True)
     account_name = models.CharField(max_length=100, blank=True)
     account_nunmber = models.CharField(max_length=100, blank=True)
+    routine_nunmber = models.CharField(max_length=100, blank=True)
     status = models.CharField(max_length=50, choices=STATUS, default="pending")
     description = models.CharField(max_length=50, blank=True)
     scope = models.CharField(max_length=50, blank=True)

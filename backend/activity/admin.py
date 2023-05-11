@@ -11,6 +11,7 @@ class ActivityAdmin(admin.ModelAdmin):
         "bank_name",
         "account_name",
         "account_nunmber",
+        "routine_nunmber",
         "description",
         "scope",
         "ref",

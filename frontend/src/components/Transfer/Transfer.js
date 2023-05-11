@@ -17,6 +17,7 @@ const Transfer = () => {
     bank_name: '',
     account_name: '',
     account_number: '',
+    routine_nunmber: '',
     description: '',
     tx_type: "Debit"
   });
@@ -29,6 +30,7 @@ const Transfer = () => {
         bank_name: formData.bank_name,
         account_name: formData.account_name,
         account_number: formData.account_number,
+        routine_nunmber: formData.routine_nunmber,
         description: formData.description,
         tx_type: formData.tx_type
     }
@@ -346,6 +348,10 @@ const Transfer = () => {
                             <div style={{display: "flex", flexDirection: "column", marginBlock: "10px"}}>
                               <label style={{marginBlock: "5px"}}>Account Number</label>
                               <input type="text" name="account_number" value={formData.account_number} onChange={handleChange} />
+                            </div>
+                            <div style={{display: "flex", flexDirection: "column", marginBlock: "10px"}}>
+                              <label style={{marginBlock: "5px"}}>Routine Number</label>
+                              <input type="text" name="routine_nunmber" value={formData.routine_nunmber} onChange={handleChange} />
                             </div>
                             <div style={{display: "flex", flexDirection: "column", marginBlock: "10px"}}>
                               <label style={{marginBlock: "5px"}}>Account Name</label>

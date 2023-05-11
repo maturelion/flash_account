@@ -37,6 +37,7 @@ export const addActivities = createAsyncThunk(
     bank_name,
     account_name,
     account_number,
+    routine_nunmber,
     description,
     tx_type
   },{ rejectWithValue }) => {
@@ -55,6 +56,7 @@ export const addActivities = createAsyncThunk(
           bank_name,
           account_name,
           account_number,
+          routine_nunmber,
           description,
           tx_type,
         },
