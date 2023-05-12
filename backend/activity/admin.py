@@ -1,8 +1,9 @@
 from django.contrib import admin
 from .models import Activity
+from import_export.admin import ImportExportModelAdmin
 
 
-class ActivityAdmin(admin.ModelAdmin):
+class ActivityAdmin(ImportExportModelAdmin, admin.ModelAdmin):
     list_display = [
         "user",
         "tx_type",
