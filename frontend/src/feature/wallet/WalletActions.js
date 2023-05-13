@@ -15,7 +15,7 @@ export const getWallet = createAsyncThunk(
         },
       }
       const res = await axios.get(
-        `${endPoint}/wallets/${user}`,
+        `${endPoint}/wallets/?user=${user}`,
         config
       )
       return res

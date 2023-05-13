@@ -22,11 +22,10 @@ const walletSlice = createSlice({
     [getWallet.fulfilled]: (state, { payload }) => {
       state.loading = false
       state.success = true
-      state.wallet = payload.data
+      state.wallet = payload.data[0]
     },
     [getWallet.rejected]: (state, { payload }) => {
       state.loading = false
-      state.error = payload
     },
   },
 })
