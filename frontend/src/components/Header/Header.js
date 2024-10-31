@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import { logoutUser } from "../../feature/auth/AuthActions";
+import { useGetUser } from "../../hooks/user.hooks";
+import { useGetWallet } from "../../hooks/wallet.hook";
 
 const Header = () => {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const { user } = useSelector((state) => state.user);
-  const { wallet } = useSelector((state) => state.wallet);
+  const { data: user } = useGetUser();
+  const { data: wallet } = useGetWallet();
 
   let USDollar = new Intl.NumberFormat();
 
@@ -40,13 +39,13 @@ const Header = () => {
                 <img
                   className="logo-light logo-img"
                   src="../../assets/logo.png"
-                  srcset="../logo.png"
+                  srcSet="../logo.png"
                   alt="logo"
                 />
                 <img
                   className="logo-dark logo-img"
                   src="../../assets/logo.png"
-                  srcset="../logo.png"
+                  srcSet="../logo.png"
                   alt="logo-dark"
                 />
               </a>
@@ -137,13 +136,13 @@ const Header = () => {
                     >
                       <h6 className="overline-title-alt">Checking Account</h6>
                       <div className="user-balance" bis_skin_checked="1">
-                        {USDollar.format(wallet.balance)}
+                        {USDollar.format(wallet?.balance)}
                         <small className="currency currency-btc">USD</small>
                       </div>
                       <div className="user-balance-sub" bis_skin_checked="1">
                         Local
                         <span>
-                          {USDollar.format(wallet.balance)}
+                          {USDollar.format(wallet?.balance)}
                           <span className="currency currency-btc">USD</span>
                         </span>
                       </div>
@@ -186,12 +185,12 @@ const Header = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="dropdown-inner" bis_skin_checked="1">
+                    <div className="dropdown-inner" bis_skin_checked="1" style={{cursor: "pointer"}}>
                       <ul className="link-list">
                         <li>
                           <div
                             onClick={() => {
-                              dispatch(logoutUser({}));
+                              localStorage.clear()
                               navigate("/");
                             }}
                           >

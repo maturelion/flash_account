@@ -1,15 +1,13 @@
 import React from 'react'
-import { useSelector } from 'react-redux';
 import {
     Link,
-    // useNavigate
 } from 'react-router-dom'
+import { useGetUser } from '../../hooks/user.hooks';
+import { useGetWallet } from '../../hooks/wallet.hook';
 
 const SideBar = () => {
-    // const navigate = useNavigate();
-  // const dispatch = useDispatch();
-  const { user } = useSelector((state) => state.user);
-  const { wallet } = useSelector((state) => state.wallet);
+  const { data: user } = useGetUser();
+  const { data: wallet } = useGetWallet();
   let USDollar = new Intl.NumberFormat();
   return (
     <div
@@ -30,13 +28,13 @@ const SideBar = () => {
                     <img
                       className="logo-light logo-img"
                       src="../../assets/logo.png"
-                      srcset="../logo.png 2x"
+                      srcSet="../logo.png 2x"
                       alt="logo"
                     />
                     <img
                       className="logo-dark logo-img"
                       src="../../assets/logo.png"
-                      srcset="../logo.png 2x"
+                      srcSet="../logo.png 2x"
                       alt="logo-dark"
                     />
                   </a>
@@ -110,7 +108,7 @@ const SideBar = () => {
                                       className="user-balance"
                                       bis_skin_checked="1"
                                     >
-                                      {USDollar.format(wallet.balance)}
+                                      {USDollar.format(wallet?.balance)}
                                       <small className="currency currency-btc">
                                         USD
                                       </small>
@@ -119,7 +117,7 @@ const SideBar = () => {
                                       className="user-balance-alt"
                                       bis_skin_checked="1"
                                     >
-                                      {USDollar.format(wallet.balance)}
+                                      {USDollar.format(wallet?.balance)}
                                       <span className="currency currency-btc">
                                         USD
                                       </span>
@@ -264,7 +262,7 @@ const SideBar = () => {
                                         className="user-balance"
                                         bis_skin_checked="1"
                                       >
-                                        {USDollar.format(wallet.balance)}
+                                        {USDollar.format(wallet?.balance)}
                                         <small className="currency currency-btc">
                                           USD
                                         </small>
@@ -273,7 +271,7 @@ const SideBar = () => {
                                         className="user-balance-alt"
                                         bis_skin_checked="1"
                                       >
-                                        {wallet.balance}
+                                        {wallet?.balance}
                                         <span className="currency currency-btc">
                                           USD
                                         </span>

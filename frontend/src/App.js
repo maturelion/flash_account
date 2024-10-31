@@ -1,24 +1,47 @@
 import './App.css';
-import { Routes, Route } from "react-router-dom"
-import Dashboard from './components/Dashboard/Dashboard';
-import Home from './components/Home/Home';
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import MainLayout from './container/MainLayout';
 import AuthLayout from './container/AuthLayout';
-import Transfer from './components/Transfer/Transfer';
+import Dashboard from "./pages/Dashboard"
+import Transfer from "./pages/Transfer"
+import Home from "./pages/Home"
+
+const router = createBrowserRouter([
+  {
+    path: "/dashboard",
+    element: <MainLayout />,
+    children: [
+      {
+        path: "/dashboard",
+        element: <Dashboard />
+      }
+    ]
+  },
+  {
+    path: "/transfer",
+    element: <MainLayout />,
+    children: [
+      {
+        path: "/transfer",
+        element: <Transfer />
+      }
+    ]
+  },
+  {
+    path: "/",
+    element: <AuthLayout/>,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+      }
+  ]
+  },
+])
 
 function App() {
   return (
-    <Routes>
-      <Route path="/dashboard" element={<MainLayout />}>
-        <Route path="/dashboard" element={<Dashboard />}></Route>
-      </Route>
-      <Route path="/transfer" element={<MainLayout />}>
-        <Route path="/transfer" element={<Transfer />}></Route>
-      </Route>
-      <Route path="/" element={<AuthLayout />}>
-      <Route path="/" element={<Home />}></Route>
-      </Route>
-    </Routes>
+    <RouterProvider router={router} />
   );
 }
 
