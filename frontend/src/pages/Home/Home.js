@@ -107,12 +107,14 @@ const Home = () => {
                               href="#login-form"
                               style={{
                                 backgroundColor: "white",
+                                height: "40px",
+                                width: "150px",
                                 color: "black",
                                 border: "2px red",
-                                padding: "2px",
+                                padding: "10px",
                               }}
                             >
-                              <i className="fa fa-lock"></i> sign in
+                              sign in
                             </a>
                           </td>
                           <td> &nbsp;&nbsp;&nbsp;</td>
