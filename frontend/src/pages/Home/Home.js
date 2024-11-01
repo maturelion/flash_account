@@ -104,7 +104,7 @@ const Home = () => {
                         <tr>
                           <td style={{ paddingTop: "25px" }}>
                             <a
-                              href="/"
+                              href="#login-form"
                               style={{
                                 backgroundColor: "white",
                                 color: "black",
