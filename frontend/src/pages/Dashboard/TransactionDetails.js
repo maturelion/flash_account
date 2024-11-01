@@ -80,7 +80,7 @@ const TransactionDetails = (props) => {
           </div>
           <div className="modal-footer bg-light" bis_skin_checked="1">
             <span className="sub-text text-primary">
-              Proccessed by Florish Bank Digital banking services.
+              Proccessed by Golden West.
             </span>
           </div>
         </div>

@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Florish Bank</title>
+        <title>Golden West</title>
 
         <meta
           name="viewport"
@@ -48,7 +48,7 @@ const Home = () => {
           href="../../assets/site.min.css"
           type="text/css"
         />
-        <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+        <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
         <link href="../../assets/css" rel="stylesheet" />
         <link href="../../assets/bootstrap.min.css" rel="stylesheet" />
         <link href="../../assets/font-awesome.min.css" rel="stylesheet" />
@@ -89,9 +89,9 @@ const Home = () => {
                     <i className="fa fa-envelope"></i>
                     <a
                       style={{ color: "##fff" }}
-                      href="/customercare@florishbank.com:support@florishbank.com"
+                      href="/customercare@goldenwestcu.com:support@goldenwestcu.com"
                     >
-                      support@florishbank.com{" "}
+                      support@goldenwestcu.com{" "}
                     </a>
                   </b>
                 </div>
@@ -452,7 +452,7 @@ const Home = () => {
                                                     className="dropdown-item"
                                                     href="/premier-accounts"
                                                   >
-                                                    Florish Bank Account
+                                                    Golden West Bank Account
                                                   </a>
                                                 </li>
                                                 <li>
@@ -593,7 +593,7 @@ const Home = () => {
                                                     className="dropdown-item"
                                                     href="/premier"
                                                   >
-                                                    Florish Bank Credit Card
+                                                    Golden West Credit Card
                                                   </a>
                                                 </li>
                                                 <li>
@@ -601,7 +601,7 @@ const Home = () => {
                                                     className="dropdown-item"
                                                     href="/premier-world-elite"
                                                   >
-                                                    Florish Bank World Elite
+                                                    Golden West World Elite
                                                     Mastercard
                                                   </a>
                                                 </li>
@@ -799,7 +799,7 @@ const Home = () => {
                                                     className="dropdown-item"
                                                     href="/premier-personal"
                                                   >
-                                                    Florish Bank Personal Loan
+                                                    Golden West Personal Loan
                                                   </a>
                                                 </li>
                                                 <li>
@@ -977,7 +977,7 @@ const Home = () => {
                                                     className="dropdown-item"
                                                     href="/premier"
                                                   >
-                                                    Florish Bank Credit Card
+                                                    Golden West Credit Card
                                                   </a>
                                                 </li>
                                                 <li>
@@ -985,7 +985,7 @@ const Home = () => {
                                                     className="dropdown-item"
                                                     href="/premier-world-elite"
                                                   >
-                                                    Florish Bank World Elite
+                                                    Golden West World Elite
                                                     Mastercard
                                                   </a>
                                                 </li>
@@ -1177,7 +1177,7 @@ const Home = () => {
                                                     className="dropdown-item"
                                                     href="/premier-financial-advice"
                                                   >
-                                                    Florish Bank Financial
+                                                    Golden West Financial
                                                     Advice
                                                   </a>
                                                 </li>
@@ -1647,7 +1647,7 @@ const Home = () => {
                                                   href="/premier-accounts"
                                                   className="menuhead"
                                                 >
-                                                  Florish Bank Customers
+                                                  Golden West Customers
                                                 </a>
                                                 <li>
                                                   <a
@@ -2488,7 +2488,7 @@ const Home = () => {
                               className="icon-business-medium"
                               aria-hidden="true"
                             ></i>
-                            <span>Florish Bank for Business</span>
+                            <span>Golden West for Business</span>
                           </a>
                         </li>
                         <li
@@ -2503,7 +2503,7 @@ const Home = () => {
                         >
                           <a href="/personal-loans">
                             <i className="icon-cpc-medium" aria-hidden="true"></i>
-                            <span>Florish Bank Private Client</span>
+                            <span>Golden West Private Client</span>
                           </a>
                         </li>
                         <li
@@ -2642,7 +2642,7 @@ const Home = () => {
                               className="icon-business-medium"
                               aria-hidden="true"
                             ></i>
-                            <span>Florish Bank for Business</span>
+                            <span>Golden West for Business</span>
                           </a>
                         </li>
                         <li
@@ -2656,7 +2656,7 @@ const Home = () => {
                         >
                           <a href="/personal-loans">
                             <i className="icon-cpc-medium" aria-hidden="true"></i>
-                            <span>Florish Bank Private Client</span>
+                            <span>Golden West Private Client</span>
                           </a>
                         </li>
                         <li
@@ -2868,7 +2868,7 @@ const Home = () => {
                     </a>
                   </h2>
                   <p>
-                    Discover the benefits of a bank account from Florish Bank.
+                    Discover the benefits of a bank account from Golden West.
                   </p>
                 </div>
               </div>
@@ -3222,7 +3222,7 @@ const Home = () => {
                         <div className="media-body" bis_skin_checked="1">
                           <h2>Account questions? Just ask me.</h2>
                           <p>
-                            I'm just a few taps away — open your Florish Bank®
+                            I'm just a few taps away — open your Golden West®
                             mobile app and say hello.
                           </p>
                           <a
@@ -3285,7 +3285,7 @@ const Home = () => {
                 <div className="col-md-3" bis_skin_checked="1">
                   <h5> Find a branch </h5>
                   <a href="/ways-we-can-help">
-                    Find your nearest Florish Bank Banking location
+                    Find your nearest Golden West Banking location
                   </a>
                 </div>
                 <div className="col-md-3" bis_skin_checked="1">
@@ -3296,7 +3296,7 @@ const Home = () => {
                 </div>
 
                 <div className="col-md-3" bis_skin_checked="1">
-                  <h5> About Florish Bank </h5>
+                  <h5> About Golden West </h5>
                   <a href="/news">
                     Careers, media, investor and corporate information
                   </a>
@@ -3307,7 +3307,7 @@ const Home = () => {
                     <div className="col-md-12 footer-info" bis_skin_checked="1">
                       <div className="row" bis_skin_checked="1">
                         <p className="text-center">
-                          Florish Bank is federally insured by the National
+                          Golden West is federally insured by the National
                           Credit Union Administration. We do business in
                           accordance with the Fair Housing Law and Equal
                           opportunity Credit Act.
@@ -3364,7 +3364,7 @@ const Home = () => {
                           className="col-md-12 text-center text-muted"
                           bis_skin_checked="1"
                         >
-                          © 2023 Florish Bank- All rights reserved.
+                          © 2023 Golden West- All rights reserved.
                         </div>
                       </div>
                     </div>

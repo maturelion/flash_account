@@ -50,7 +50,7 @@ const Dashboard = () => {
   return (
     <>
       <Helmet>
-        <title>{`${user?.first_name} ${user?.last_name} | Florish Bank Online banking`}</title>
+        <title>{`${user?.first_name} ${user?.last_name} | Golden West Online banking`}</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="author" content="Smart" />
         <meta
@@ -59,7 +59,7 @@ const Dashboard = () => {
         />
         <meta
           name="description"
-          content="Florish Bank is federally insured by the National Credit Union Administration. We do business in accordance with the Fair Housing Law and Equal opportunity Credit Act."
+          content="Golden West Credit Union. We do business in accordance with the Fair Housing Law and Equal opportunity Credit Act."
         />
         <link rel="shortcut icon" href="/images/favicon.png" />
         <link rel="stylesheet" href="../../assets/sweetalert.css" />
@@ -1196,7 +1196,7 @@ const Dashboard = () => {
                 <div className="container-fluid" bis_skin_checked="1">
                   <div className="nk-footer-wrap" bis_skin_checked="1">
                     <div className="nk-footer-copyright" bis_skin_checked="1">
-                      © 2023 Florish Bank -
+                      © 2023 Golden West Credit Union -
                       <a href="/personal-banking/dashboard.php?viewSource=4uwVoHdaMMQi0pGzB24FqiRTjxrY5RNyek3udOlqkIoOVYwzrKP7fsW4DzKndCVKpqXE#">
                         All rights reserved.
                       </a>

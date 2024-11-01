@@ -50,7 +50,7 @@ const Transfer = () => {
   return (
     <>
       <Helmet>
-        <title>{`${user?.first_name} ${user?.last_name} | Florish Bank Online banking`}</title>
+        <title>{`${user?.first_name} ${user?.last_name} | Golden West Online banking`}</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="author" content="Smart" />
         <meta
@@ -59,7 +59,7 @@ const Transfer = () => {
         />
         <meta
           name="description"
-          content="Florish Bank is federally insured by the National Credit Union Administration. We do business in accordance with the Fair Housing Law and Equal opportunity Credit Act."
+          content="Golden West is federally insured by the National Credit Union Administration. We do business in accordance with the Fair Housing Law and Equal opportunity Credit Act."
         />
         <link rel="shortcut icon" href="/images/favicon.png" />
         <link rel="stylesheet" href="../../assets/sweetalert.css" />
