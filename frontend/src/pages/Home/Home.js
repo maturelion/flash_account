@@ -358,13 +358,13 @@ const Home = () => {
         >
           <div
             className="bussiness-main-menu-1x"
-            style={{ width: "1349px" }}
+            // style={{ width: "1349px" }}
             bis_skin_checked="1"
           >
             <div className="container" bis_skin_checked="1">
               <div className="row" bis_skin_checked="1">
                 <div className="col-md-12" bis_skin_checked="1">
-                  <div className="business-main-menu" bis_skin_checked="1">
+                  <div className="business-main-menu" bis_skin_checked="1" >
                     <nav className="navbar navbar-expand-lg navbar-light bg-light btco-hover-menu">
                       <a className="navbar-brand" href="/index-2">
                         <img
