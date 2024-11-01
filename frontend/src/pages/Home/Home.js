@@ -366,7 +366,7 @@ const Home = () => {
                     <nav className="navbar navbar-expand-lg navbar-light bg-light btco-hover-menu">
                       <a className="navbar-brand" href="/index-2">
                         <img
-                          style={{ maxWidth: "220px" }}
+                          style={{ maxWidth: "100px", width: "100px", height: "100px" }}
                           src="../../assets/logo.png"
                           className="d-inline-block align-top"
                           alt=""
