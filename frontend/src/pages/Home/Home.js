@@ -2248,7 +2248,7 @@ const Home = () => {
                               value={formik.values.id}
                               autoComplete="off"
                               maxLength="20"
-                              placeholder="Account Number"
+                              placeholder="User ID"
                             />
                           </span>
                         </div>
