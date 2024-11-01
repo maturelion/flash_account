@@ -34,7 +34,7 @@ const SideBar = () => {
                     <img
                       className="logo-dark logo-img"
                       src="../../assets/logo.png"
-                      srcSet="../logo.png 2x"
+                      // srcSet="../logo.png 2x"
                       alt="logo-dark"
                     />
                   </a>

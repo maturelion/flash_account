@@ -45,7 +45,7 @@ const Header = () => {
                 <img
                   className="logo-dark logo-img"
                   src="../../assets/logo.png"
-                  srcSet="../logo.png"
+                  // srcSet="../logo.png"
                   alt="logo-dark"
                 />
               </a>
